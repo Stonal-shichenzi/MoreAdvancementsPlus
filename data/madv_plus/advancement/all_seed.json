@@ -1,0 +1,68 @@
+{
+    "criteria": {
+        "beetroot_seeds": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "beetroot_seeds"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "melon_seeds": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "melon_seeds"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "pumpkin_seeds": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "pumpkin_seeds"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "torchflower_seeds": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "torchflower_seeds"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "wheat_seeds": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "wheat_seeds"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": {
+            "fallback": "收集所有种类的种子",
+            "translate": "advancement.madv_plus.husbandry.all_seed.description"
+        },
+        "icon": {
+            "id": "minecraft:melon_seeds"
+        },
+        "title": {
+            "fallback": "轮作",
+            "translate": "advancement.madv_plus.husbandry.all_seed.title"
+        }
+    },
+    "parent": "madv:husbandry/wheat_seeds"
+}
