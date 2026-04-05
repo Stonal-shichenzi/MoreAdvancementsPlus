@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:campfire"
+        },
+        "frame": "task",
+        "title": {
+            "translate": "advancement.madv_plus.husbandry.campfire_using.title",
+            "fallback": "升起烟雾的篝火"
+        },
+        "description": {
+            "translate": "advancement.madv_plus.husbandry.campfire_using.description",
+            "fallback": "这是用来烹饪的吗？"
+        }
+    },
+    "criteria": {
+        "campfire": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "block_state_property",
+                        "block": "minecraft:campfire"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:husbandry/eat_raw_meat"
+}

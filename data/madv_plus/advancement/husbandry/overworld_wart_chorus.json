@@ -1,0 +1,51 @@
+{
+    "parent": "minecraft:end/enter_end_gateway",
+    "display": {
+        "frame": "task",
+        "title": {
+            "translate": "advancement.madv_plus.husbandry.overworld_wart_chorus.title",
+            "fallback": "异界农业"
+        },
+        "description": {
+            "translate": "advancement.madv_plus.husbandry.overworld_wart_chorus.description",
+            "fallback": "在主世界种植下界疣和紫颂果"
+        },
+        "icon": {
+            "id": "minecraft:nether_wart"
+        }
+    },
+    "criteria": {
+        "chorus_flower": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:overworld"
+                    }
+                },
+                "location": [
+                    {
+                        "condition": "block_state_property",
+                        "block": "minecraft:chorus_flower"
+                    }
+                ]
+            },
+            "trigger": "minecraft:placed_block"
+        },
+        "nether_wart": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:overworld"
+                    }
+                },
+                "location":[
+                    {
+                        "condition": "block_state_property",
+                        "block": "minecraft:nether_wart"
+                    }
+                ]
+            },
+            "trigger": "minecraft:placed_block"
+        }
+    }
+}
