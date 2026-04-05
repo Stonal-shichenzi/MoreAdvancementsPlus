@@ -1,0 +1,79 @@
+{
+    "display": {
+        "frame": "task",
+        "icon": {
+            "id": "minecraft:bucket"
+        },
+        "title": {
+            "translate": "advancement.madv_plus.story.all_mob_bucket.title",
+            "fallback": "不透明鱼缸"
+        },
+        "description": {
+            "translate": "advancement.madv_plus.story.all_mob_bucket.description",
+            "fallback": "收集所有种类的鱼桶"
+        }
+    },
+    "parent": "minecraft:story/smelt_iron",
+    "criteria": {
+        "pufferfish_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:pufferfish_bucket"
+                    }
+                ]
+            }
+        },
+        "salmon_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:salmon_bucket"
+                    }
+                ]
+            }
+        },
+        "cod_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cod_bucket"
+                    }
+                ]
+            }
+        },
+        "tropical_fish_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:tropical_fish_bucket"
+                    }
+                ]
+            }
+        },
+        "axolotl_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:axolotl_bucket"
+                    }
+                ]
+            }
+        },
+        "tadpole_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:tadpole_bucket"
+                    }
+                ]
+            }
+        }
+    }
+}
