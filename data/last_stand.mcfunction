@@ -1,1 +1,0 @@
-execute if entity @e[sort=nearest,distance=..200,type=minecraft:ender_dragon] if entity @e[sort=nearest,distance=..200,type=minecraft:wither] run advancement grant @s only madv_plus:end/last_stand
