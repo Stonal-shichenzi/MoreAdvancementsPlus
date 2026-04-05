@@ -1,0 +1,92 @@
+{
+    "type": "minecraft:multi_action",
+    "title": {
+        "translate": "gui.dialog.setting.title",
+        "fallback": "更多进度设置…"
+    },
+    "pause": false,
+    "after_action": "none",
+    "body": [
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:diamond_boots",
+                "count": 1,
+                "components": {
+                    "minecraft:attribute_modifiers": [
+                        {
+                            "type": "minecraft:luck",
+                            "amount": 2147483647,
+                            "id": "minecraft:luck",
+                            "operation": "add_value",
+                            "display": {
+                                "type": "override",
+                                "value": {
+                                    "text": "+∞ 幸运值喵~",
+                                    "color": "light_purple"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "gui.dialog.setting.body",
+                    "fallback": "欢迎游玩 更多进度 数据包！这里是一些设置"
+                }
+            }
+        }
+    ],
+    "exit_action": {
+        "label": {
+            "translate": "gui.back"
+        },
+        "action": {
+            "type": "minecraft:run_command",
+            "command": "trigger madv_trigger_close"
+        }
+    },
+    "actions": [
+        {
+            "label": {
+                "translate": "gui.button.setting.introduction",
+                "fallback": "数据包简介"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "madv:settings/introduction"
+            }
+        },
+        {
+            "label": {
+                "translate": "gui.button.setting.rewards",
+                "fallback": "奖励设置…"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "function madv:dialog_mcf/settings/reward/reset"
+            }
+        },
+        {
+            "label": {
+                "translate": "gui.button.setting.messages",
+                "fallback": "消息设置…"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "function madv:dialog_mcf/settings/messages/reset"
+            }
+        },
+        {
+            "label": {
+                "translate": "gui.madv_plus.button.setting.introduction",
+                "fallback": "数据包扩展简介"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "madv_plus:extension/introduction"
+            }
+        }
+    ]
+}
