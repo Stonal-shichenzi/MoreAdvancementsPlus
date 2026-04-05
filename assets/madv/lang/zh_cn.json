@@ -1,0 +1,46 @@
+{
+    "advancement.madv_plus.end.end_rod.description":
+        "获得一根末地烛",
+    "advancement.madv_plus.end.end_rod.title":
+        "这玩意只是用来照明的……对吧？",
+    "advancement.madv_plus.husbandry.all_seed.description":
+        "收集所有种类的种子",
+    "advancement.madv_plus.husbandry.all_seed.title":
+        "轮作",
+    "advancement.madv_plus.husbandry.campfire_using.description":
+        "这是用来烹饪的吗？",
+    "advancement.madv_plus.husbandry.campfire_using.title":
+        "升起烟雾的篝火",
+    "advancement.madv_plus.husbandry.overworld_wart_chorus.description":
+        "在主世界种植下界疣和紫颂果",
+    "advancement.madv_plus.husbandry.overworld_wart_chorus.title":
+        "异界农业",
+    "advancement.madv_plus.story.all_bucket.description":
+        "收集所有种类的桶",
+    "advancement.madv_plus.story.all_bucket.title":
+        "万花桶",
+    "advancement.madv_plus.story.all_mob_bucket.description":
+        "收集所有种类的鱼桶",
+    "advancement.madv_plus.story.all_mob_bucket.title":
+        "不透明鱼缸",
+    "advancement.madv_plus.world.sponge.description":
+        "获得一块海绵",
+    "advancement.madv_plus.world.sponge.title":
+        "你说你获得了什么？",
+    "gui.madv_plus.button.setting.introduction":
+        "数据包扩展简介",
+    "gui.dialog.madv_plus.message.extension.debug_versions":
+        "扩展测试版警告：该扩展并非由原作者(MC的小方块)制作，且非正式版",
+    "gui.dialog.madv_plus.message.extension.debug_versions.more_information":
+        "[点击查看详情]",
+    "gui.dialog.madv_plus.message.extension.introduction.author":
+        "打开扩展作者的B站空间",
+    "gui.dialog.madv_plus.message.extension.introduction.title":
+        "更多进度 扩展 简介",
+    "gui.dialog.madv_plus.message.extension.introduction.version":
+        "版本：Alpha Incipient Renovate\n快照：alpha-0.0.1-snapshot-26w15a (AIR AS)",
+    "gui.dialog.madv_plus.message.extension.introduction.welcome":
+        "欢迎游玩更多进度 - 扩展！（本扩展包默认支持英文与简体中文）",
+    "command.initialization.messages.madv_plus.load":
+        "更多进度数据包（扩展）Alpha Incipient Renovate版本加载完成！"
+}
