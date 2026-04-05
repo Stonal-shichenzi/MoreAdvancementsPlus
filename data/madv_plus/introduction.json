@@ -1,0 +1,59 @@
+{
+    "type": "minecraft:multi_action",
+    "title": {
+        "translate": "gui.dialog.madv_plus.message.extension.introduction.title",
+        "fallback": "欢迎游玩更多进度 - 扩展！（本扩展包默认支持英文与简体中文）\n请先加载资源包，加载后不会出现该行提示"
+    },
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": [
+                "",
+                {
+                   "translate": "gui.dialog.madv_plus.message.extension.introduction.welcome",
+                   "fallback": "欢迎游玩更多进度 - 扩展！（本扩展包默认支持英文与简体中文）",
+                   "color": "aqua"
+                }
+            ],
+            "width": 400
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:barrier"
+            },
+            "description": {
+                "contents": {
+                    "translate": "gui.dialog.madv_plus.message.extension.debug_versions",
+                    "fallback": "扩展测试版警告：该扩展并非由原作者(MC的小方块)制作，且非正式版",
+                    "color": "red"
+                },
+                "width": 400
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": [
+                "",
+                {
+                   "translate": "gui.dialog.madv_plus.message.extension.introduction.version",
+                   "fallback": "版本：Alpha Incipient Renovate\n快照：alpha-0.0.1-snapshot-26w15a (AIR AS)",
+                   "color": "yellow"
+                }
+            ],
+            "width": 400
+        }
+    ],
+    "actions": [
+        {
+            "label": {
+                "translate": "gui.dialog.madv_plus.message.extension.introduction.author",
+                "fallback": "打开扩展作者的B站空间"
+            },
+            "action": {
+                "type": "open_url",
+                "url": "https://space.bilibili.com/3494375371835592"
+            }
+        }
+    ]
+}
