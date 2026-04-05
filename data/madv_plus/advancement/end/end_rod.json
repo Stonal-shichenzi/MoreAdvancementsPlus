@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "task",
+        "icon": {
+            "id": "minecraft:end_rod"
+        },
+        "title": {
+            "translate": "advancement.madv_plus.end.end_rod.title",
+            "fallback": "这玩意只是用来照明的……对吧？"
+        },
+        "description": {
+            "translate": "advancement.madv_plus.end.end_rod.description",
+            "fallback": "获得一根末地烛"
+        }
+    },
+    "parent": "minecraft:end/find_end_city.json",
+    "criteria": {
+        "sponge": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:end_rod"
+                    }
+                ]
+            }
+        }
+    }
+}
