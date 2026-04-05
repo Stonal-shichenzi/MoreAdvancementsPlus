@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:end/respawn_dragon",
+    "display": {
+        "title": {
+            "translate": "dvancement.madv_plus.end.end_rod.title",
+            "fallback": "背水一战"
+        },
+        "description": {
+            "translate": "dvancement.madv_plus.end.end_rod.description",
+            "fallback": "周围200格内同时存在凋灵与末影龙"
+        },
+        "icon": {
+            "id": "minecraft:netherite_sword",
+            "components": {
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "frame": "goal"
+    },
+    "criteria": {
+        "qwq": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
