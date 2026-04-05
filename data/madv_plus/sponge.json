@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "task",
+        "icon": {
+            "id": "minecraft:sponge"
+        },
+        "title": {
+            "translate": "advancement.madv_plus.world.sponge.title",
+            "fallback": "你说你获得了什么？"
+        },
+        "description": {
+            "translate": "advancement.madv_plus.world.sponge.description",
+            "fallback": "获得一块海绵"
+        }
+    },
+    "parent": "madv:world/wet_sponge",
+    "criteria": {
+        "sponge": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:sponge"
+                    }
+                ]
+            }
+        }
+    }
+}
