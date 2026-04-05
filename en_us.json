@@ -1,0 +1,46 @@
+{
+    "advancement.madv_plus.end.end_rod.description":
+        "Acquire An End Rod",
+    "advancement.madv_plus.end.end_rod.title":
+        "It can be only used on lighting, right?",
+    "advancement.madv_plus.husbandry.all_seed.description":
+        "Collect all types of seeds",
+    "advancement.madv_plus.husbandry.all_seed.title":
+        "Crop Rotation",
+    "advancement.madv_plus.husbandry.campfire_using.description":
+        "Does it have foods cooked?",
+    "advancement.madv_plus.husbandry.campfire_using.title":
+        "Smoking Campfire",
+    "advancement.madv_plus.husbandry.overworld_wart_chorus.description":
+        "Break The Dimension: Farming",
+    "advancement.madv_plus.husbandry.overworld_wart_chorus.title":
+        "Collect all types of buckets",
+    "advancement.madv_plus.story.all_bucket.description":
+        "Plant a nether wart and a chorus flower in the overworld, and wait",
+    "advancement.madv_plus.story.all_bucket.title":
+        "Kaleidobucket",
+    "advancement.madv_plus.story.all_mob_bucket.description":
+        "Collect all types of buckets with fishes",
+    "advancement.madv_plus.story.all_mob_bucket.title":
+        "Opaque Fish Jars",
+    "gui.madv_plus.button.setting.introduction":
+        "Extension: Introduction",
+    "advancement.madv_plus.world.sponge.description":
+        "Acquire Sponges",
+    "advancement.madv_plus.world.sponge.title":
+        "Exactly... What Did You Acquire?",
+    "gui.dialog.madv_plus.message.extension.debug_versions":
+        "Warning: The datapack is neither the release version nor a pack by Minecraft Little Block (The Original Author)",
+    "gui.dialog.madv_plus.message.extension.debug_versions.more_information":
+        "[Click For More Information]",
+    "gui.dialog.madv_plus.message.extension.introduction.author":
+        "Open the author's account on bilibili",
+    "gui.dialog.madv_plus.message.extension.introduction.title":
+        "More Advancements (Extension): Introduction",
+    "gui.dialog.madv_plus.message.extension.introduction.version":
+        "Version: Alpha Incipient Renovate\nSnapshot: alpha-0.0.1-snapshot-26w15a (AIR AS)",
+    "gui.dialog.madv_plus.message.extension.introduction.welcome":
+        "Welcome to play the More Advancements (Extension)!",
+    "command.initialization.messages.madv_plus.load":
+        "More Advancements (Extension) Version Alpha Incipient Renovate (Datapack) Has Been Loaded!"
+}
