@@ -1,0 +1,129 @@
+{
+    "display": {
+        "frame": "task",
+        "icon": {
+            "id": "minecraft:bucket"
+        },
+        "title": {
+            "translate": "advancement.madv_plus.story.all_bucket.title",
+            "fallback": "万花桶"
+        },
+        "description": {
+            "translate": "advancement.madv_plus.story.all_bucket.description",
+            "fallback": "收集所有种类的桶"
+        }
+    },
+    "parent": "madv_plus:story/all_mob_bucket",
+    "criteria": {
+        "bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bucket"
+                    }
+                ]
+            }
+        },
+        "water_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:water_bucket"
+                    }
+                ]
+            }
+        },
+        "lava_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lava_bucket"
+                    }
+                ]
+            }
+        },
+        "powder_snow_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:powder_snow_bucket"
+                    }
+                ]
+            }
+        },
+        "milk_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:milk_bucket"
+                    }
+                ]
+            }
+        },
+        "pufferfish_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:pufferfish_bucket"
+                    }
+                ]
+            }
+        },
+        "salmon_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:salmon_bucket"
+                    }
+                ]
+            }
+        },
+        "cod_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cod_bucket"
+                    }
+                ]
+            }
+        },
+        "tropical_fish_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:tropical_fish_bucket"
+                    }
+                ]
+            }
+        },
+        "axolotl_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:axolotl_bucket"
+                    }
+                ]
+            }
+        },
+        "tadpole_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:tadpole_bucket"
+                    }
+                ]
+            }
+        }
+    }
+}
