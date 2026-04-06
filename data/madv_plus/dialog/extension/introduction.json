@@ -2,7 +2,7 @@
     "type": "minecraft:multi_action",
     "title": {
         "translate": "gui.dialog.madv_plus.message.extension.introduction.title",
-        "fallback": "欢迎游玩更多进度 - 扩展！（本扩展包默认支持英文与简体中文）\n请先加载资源包，加载后不会出现该行提示"
+        "fallback": "更多进度 扩展 简介"
     },
     "body": [
         {
@@ -11,7 +11,7 @@
                 "",
                 {
                    "translate": "gui.dialog.madv_plus.message.extension.introduction.welcome",
-                   "fallback": "欢迎游玩更多进度 - 扩展！（本扩展包默认支持英文与简体中文）",
+                   "fallback": "欢迎游玩更多进度 - 扩展！（本扩展包默认支持英文与简体中文）\n请先加载资源包，加载后不会出现该行提示",
                    "color": "aqua"
                 }
             ],
