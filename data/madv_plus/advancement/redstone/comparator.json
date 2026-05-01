@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "task",
+        "icon": {
+            "id": "minecraft:comparator"
+        },
+        "title": {
+            "translate": "advancement.madv_plus.redstone.comparator.title",
+            "fallback": "红石比较器"
+        },
+        "description": {
+            "translate": "advancement.madv_plus.redstone.comparator.description",
+            "fallback": "比较、作差、测量，一应俱全！"
+        }
+    },
+    "parent": "madv_plus:redstone/redstone_torch",
+    "criteria": {
+        "comparator": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:comparator"
+                    }
+                ]
+            }
+        }
+    }
+}

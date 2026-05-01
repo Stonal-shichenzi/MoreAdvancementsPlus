@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "task",
+        "icon": {
+            "id": "minecraft:repeater"
+        },
+        "title": {
+            "translate": "advancement.madv_plus.redstone.repeater.title",
+            "fallback": "红石中继器"
+        },
+        "description": {
+            "translate": "advancement.madv_plus.redstone.repeater.description",
+            "fallback": "文可锁存数据，武可延长信号！"
+        }
+    },
+    "parent": "madv_plus:redstone/redstone_torch",
+    "criteria": {
+        "repeater": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:repeater"
+                    }
+                ]
+            }
+        }
+    }
+}
