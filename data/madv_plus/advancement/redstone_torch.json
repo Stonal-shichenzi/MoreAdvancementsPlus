@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "task",
+        "icon": {
+            "id": "minecraft:redstone_torch"
+        },
+        "title": {
+            "translate": "advancement.madv_plus.redstone.redstone_torch.title",
+            "fallback": "逻辑非"
+        },
+        "description": {
+            "translate": "advancement.madv_plus.redstone.redstone_torch.description",
+            "fallback": "模拟电路与数字电路，信息技术初步！"
+        }
+    },
+    "parent": "madv:redstone/root",
+    "criteria": {
+        "sponge": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:redstone_torch"
+                    }
+                ]
+            }
+        }
+    }
+}
