@@ -1,8 +1,8 @@
 {
     "advancement.madv_plus.end.end_rod.description":
-        "获得一根末地烛",
-    "advancement.madv_plus.end.end_rod.title":
         "这玩意只是用来照明的……对吧？",
+    "advancement.madv_plus.end.end_rod.title":
+        "末地中的灯光",
     "advancement.madv_plus.husbandry.all_seed.description":
         "收集所有种类的种子",
     "advancement.madv_plus.husbandry.all_seed.title":
@@ -15,6 +15,18 @@
         "在主世界种植下界疣和紫颂果",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.title":
         "异界农业",
+    "advancement.madv_plus.redstone.comparator.description":
+        "比较、作差、测量，一应俱全！",
+    "advancement.madv_plus.redstone.comparator.title":
+        "红石比较器",
+    "advancement.madv_plus.redstone.redstone_torch.description":
+        "模拟电路与数字电路，信息技术初步！",
+    "advancement.madv_plus.redstone.redstone_torch.title":
+        "逻辑非",
+    "advancement.madv_plus.redstone.repeater.description":
+        "文可锁存数据，武可延长信号！",
+    "advancement.madv_plus.redstone.repeater.title":
+        "红石中继器",
     "advancement.madv_plus.story.all_bucket.description":
         "收集所有种类的桶",
     "advancement.madv_plus.story.all_bucket.title":
@@ -38,7 +50,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "更多进度 扩展 简介",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "版本：Alpha Incipient Renovate\n快照：alpha-0.0.1-snapshot-26w15a (AIR AS)",
+        "版本：Alpha Incipient Renovate\n快照：alpha-0.0.1-snapshot-26w18a (AIR AS)",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "欢迎游玩更多进度 - 扩展！（本扩展包默认支持英文与简体中文）",
     "command.initialization.messages.madv_plus.load":

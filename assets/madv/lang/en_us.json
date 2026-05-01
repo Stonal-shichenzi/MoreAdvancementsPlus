@@ -1,8 +1,8 @@
 {
     "advancement.madv_plus.end.end_rod.description":
-        "Acquire An End Rod",
-    "advancement.madv_plus.end.end_rod.title":
         "It can be only used on lighting, right?",
+    "advancement.madv_plus.end.end_rod.title":
+        "The Light In The End",
     "advancement.madv_plus.husbandry.all_seed.description":
         "Collect all types of seeds",
     "advancement.madv_plus.husbandry.all_seed.title":
@@ -15,6 +15,18 @@
         "Break The Dimension: Farming",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.title":
         "Collect all types of buckets",
+    "advancement.madv_plus.redstone.comparator.description":
+        "Comparison, subtracion, and mesurement!",
+    "advancement.madv_plus.redstone.comparator.title":
+        "Redstone Comparator",
+    "advancement.madv_plus.redstone.redstone_torch.description":
+        "The beginning of information technology!",
+    "advancement.madv_plus.redstone.redstone_torch.title":
+        "Analog & Digital Circuit",
+    "advancement.madv_plus.redstone.repeater.description":
+        "Latch is allowed, and you can also extend the signal!",
+    "advancement.madv_plus.redstone.repeater.title":
+        "Redstone Repeater",
     "advancement.madv_plus.story.all_bucket.description":
         "Plant a nether wart and a chorus flower in the overworld, and wait",
     "advancement.madv_plus.story.all_bucket.title":
@@ -38,7 +50,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "More Advancements (Extension): Introduction",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "Version: Alpha Incipient Renovate\nSnapshot: alpha-0.0.1-snapshot-26w15a (AIR AS)",
+        "Version: Alpha Incipient Renovate\nSnapshot: alpha-0.0.1-snapshot-26w18a (AIR AS)",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "Welcome to play the More Advancements (Extension)!",
     "command.initialization.messages.madv_plus.load":
