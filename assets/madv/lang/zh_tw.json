@@ -1,58 +1,58 @@
 {
     "advancement.madv_plus.end.end_rod.description":
-        "It can be only used on lighting, right?",
+        "這玩意只是用來照明的……對吧？",
     "advancement.madv_plus.end.end_rod.title":
-        "The Light In The End",
+        "終界的燈光",
     "advancement.madv_plus.husbandry.all_seed.description":
-        "Collect all types of seeds",
+        "獲得每個種子",
     "advancement.madv_plus.husbandry.all_seed.title":
-        "Crop Rotation",
+        "輪作",
     "advancement.madv_plus.husbandry.campfire_using.description":
-        "Does it have foods cooked?",
+        "這是用於煙燻的嗎？",
     "advancement.madv_plus.husbandry.campfire_using.title":
-        "Smoking Campfire",
+        "上飄煙霧的篝火",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.description":
-        "Break The Dimension: Farming",
+        "把地獄疙瘩和歌萊果種植於主世界",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.title":
-        "Collect all types of buckets",
+        "異界農業",
     "advancement.madv_plus.redstone.comparator.description":
-        "Comparison, subtracion, and mesurement!",
+        "比較、作差、測量，一應俱全！",
     "advancement.madv_plus.redstone.comparator.title":
-        "Redstone Comparator",
+        "紅石比較器",
     "advancement.madv_plus.redstone.redstone_torch.description":
-        "The beginning of information technology!",
+        "獲得紅石火把",
     "advancement.madv_plus.redstone.redstone_torch.title":
-        "Analog & Digital Circuit",
+        "非門",
     "advancement.madv_plus.redstone.repeater.description":
-        "Latch is allowed, and you can also extend the signal!",
+        "鎖存數據，延長信號",
     "advancement.madv_plus.redstone.repeater.title":
-        "Redstone Repeater",
+        "紅石中繼器",
     "advancement.madv_plus.story.all_bucket.description":
-        "Plant a nether wart and a chorus flower in the overworld, and wait",
+        "獲得每種桶",
     "advancement.madv_plus.story.all_bucket.title":
-        "Kaleidobucket",
+        "萬花桶",
     "advancement.madv_plus.story.all_mob_bucket.description":
-        "Collect all types of buckets with fishes",
+        "獲得每種魚桶",
     "advancement.madv_plus.story.all_mob_bucket.title":
-        "Opaque Fish Jars",
-    "gui.madv_plus.button.setting.introduction":
-        "Extension: Introduction",
+        "不透明魚缸",
     "advancement.madv_plus.world.sponge.description":
-        "Acquire Sponges",
+        "獲得一塊海綿",
     "advancement.madv_plus.world.sponge.title":
-        "Exactly... What Did You Acquire?",
+        "你說你獲得了什麼？",
+    "gui.madv_plus.button.setting.introduction":
+        "資料包擴展簡介",
     "gui.dialog.madv_plus.message.extension.debug_versions":
-        "Warning: The datapack is neither the release version nor a pack by Minecraft Little Block (The Original Author)",
+        "擴展測試版警告：該擴展並非由原作者(麥塊的小方塊)制作，且非正式版",
     "gui.dialog.madv_plus.message.extension.debug_versions.more_information":
-        "[Click For More Information]",
+        "[點擊查看詳情]",
     "gui.dialog.madv_plus.message.extension.introduction.author":
-        "Open the author's account on bilibili",
+        "打開擴展作者的嗶哩嗶哩空間",
     "gui.dialog.madv_plus.message.extension.introduction.title":
-        "More Advancements (Extension): Introduction",
+        "更多進度 擴展 簡介",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "Version: Alpha Replacing Elementarily\nSnapshot: alpha-0.1.1-snapshot-26w21b (ARE AS)",
+        "版本：Alpha Replacing Elementarily\n快照：alpha-0.1.1-snapshot-26w21b (ARE AS)",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
-        "Welcome to play the More Advancements (Extension)!",
+        "歡迎遊玩更多進度 - 擴展！",
     "command.initialization.messages.madv_plus.load":
-        "More Advancements (Extension) Version Alpha Replacing Elementarily (Datapack) Has Been Loaded!"
+        "更多進度資料包（擴展）Alpha Replacing Elementarily版本成功加載！"
 }
