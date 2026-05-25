@@ -1,0 +1,34 @@
+{
+    "parent": "minecraft:adventure/kill_a_mob",
+    "criteria": {
+        "player_hurt_player": {
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player"
+                }
+            },
+            "trigger": "minecraft:player_hurt_entity"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancement.madv_plus.adventure.attack_self.description",
+            "fallback": "攻击一个玩家，包括你自己"
+        },
+        "frame": "goal",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:golden_sword"
+        },
+        "title": {
+            "translate": "advancement.madv_plus.adventure.attack_self.title",
+            "fallback": "伤人事故"
+        }
+    },
+    "requirements": [
+        [
+            "player_hurt_player"
+        ]
+    ],
+    "sends_telemetry_event": true
+}
