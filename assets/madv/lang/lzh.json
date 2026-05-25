@@ -1,4 +1,12 @@
 {
+    "advancement.madv_plus.adventure.attack_self.description":
+        "擊一戲者，君亦可也",
+    "advancement.madv_plus.adventure.attack_self.title":
+        "近交近攻",
+    "advancement.madv_plus.adventure.all_item.title":
+        "集物冊",
+    "advancement.madv_plus.adventure.all_item.description":
+        "得諸物各一",
     "advancement.madv_plus.end.end_rod.description":
         "此物惟可明乎？",
     "advancement.madv_plus.end.end_rod.title":
@@ -8,15 +16,19 @@
     "advancement.madv_plus.husbandry.all_seed.title":
         "輪作",
     "advancement.madv_plus.husbandry.campfire_using.description":
-        "這是用於煙燻的嗎？",
+        "此煙可燻乎？",
     "advancement.madv_plus.husbandry.campfire_using.title":
-        "上飄煙霧的篝火",
+        "煙火",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.description":
         "植焱界疣與頌緲果於主界",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.title":
         "異界農業",
+    "advancement.madv_plus.mine.64_netherite_block.description":
+        "此乃六十四玄鈺塊乎？",
+    "advancement.madv_plus.mine.64_netherite_block.title":
+        "財若和珅",
     "advancement.madv_plus.redstone.comparator.description":
-        "比較、作差、測量，皆可！",
+        "較、差、測，皆可！",
     "advancement.madv_plus.redstone.comparator.title":
         "較赭儀",
     "advancement.madv_plus.redstone.redstone_torch.description":
@@ -36,21 +48,21 @@
     "advancement.madv_plus.story.all_mob_bucket.title":
         "諸君入桶",
     "advancement.madv_plus.world.sponge.description":
-        "獲得一塊海綿",
+        "得一海綿",
     "advancement.madv_plus.world.sponge.title":
-        "你說你獲得了什麼？",
+        "得何物也？",
     "gui.madv_plus.button.setting.introduction":
-        "資料包擴展簡介",
+        "錄囊續",
     "gui.dialog.madv_plus.message.extension.debug_versions":
-        "誡：斯並非礦藝小塊方製，亦非布版也",
+        "誡：斯並非礦藝小塊方製，亦非終版也",
     "gui.dialog.madv_plus.message.extension.debug_versions.more_information":
         "[擊以見詳]",
     "gui.dialog.madv_plus.message.extension.introduction.author":
         "打開擴展作者的嗶哩嗶哩空間",
     "gui.dialog.madv_plus.message.extension.introduction.title":
-        "更多進度 擴展 簡介",
+        "錄囊續",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "版：首測首更\n快照：首測〇點一點一快照二六週二一乙",
+        "版：首測首更\n快照：首測快照二六週二二甲",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "恭迎至益功續！",
     "command.initialization.messages.madv_plus.load":

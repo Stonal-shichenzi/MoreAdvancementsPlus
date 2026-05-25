@@ -1,4 +1,12 @@
 {
+    "advancement.madv_plus.adventure.attack_self.description":
+        "攻擊一個玩家，包括你自己",
+    "advancement.madv_plus.adventure.attack_self.title":
+        "事故",
+    "advancement.madv_plus.adventure.all_item.title":
+        "物品全收集",
+    "advancement.madv_plus.adventure.all_item.description":
+        "集齊每個物品",
     "advancement.madv_plus.end.end_rod.description":
         "這玩意只是用來照明的……對吧？",
     "advancement.madv_plus.end.end_rod.title":
@@ -15,6 +23,10 @@
         "把地獄疙瘩和歌萊果種植於主世界",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.title":
         "異界農業",
+    "advancement.madv_plus.mine.64_netherite_block.description":
+        "這是64個獄髓方塊？",
+    "advancement.madv_plus.mine.64_netherite_block.title":
+        "資產階級",
     "advancement.madv_plus.redstone.comparator.description":
         "比較、作差、測量，一應俱全！",
     "advancement.madv_plus.redstone.comparator.title":
@@ -50,7 +62,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "更多進度 擴展 簡介",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "版本：Alpha Replacing Elementarily\n快照：alpha-0.1.1-snapshot-26w21b (ARE AS)",
+        "版本：Alpha Replacing Elementarily\n快照：alpha-snapshot-26w22a (ARE AS)",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "歡迎遊玩更多進度 - 擴展！",
     "command.initialization.messages.madv_plus.load":

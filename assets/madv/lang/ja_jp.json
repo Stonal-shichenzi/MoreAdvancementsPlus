@@ -1,4 +1,12 @@
 {
+    "advancement.madv_plus.adventure.attack_self.description":
+        "任意のプレイヤーを倒すか、あなた自身を含む",
+    "advancement.madv_plus.adventure.attack_self.title":
+        "事故",
+    "advancement.madv_plus.adventure.all_item.title":
+        "全てアイテム",
+    "advancement.madv_plus.adventure.all_item.description":
+        "全てアイテムを手に入れる",
     "advancement.madv_plus.end.end_rod.description":
         "こわは明るいです",
     "advancement.madv_plus.end.end_rod.title":
@@ -12,11 +20,15 @@
     "advancement.madv_plus.husbandry.campfire_using.title":
         "煙が出てる",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.description":
-        "オーバーワールドで、ネザーウォートとコーラスフルーツを植える",
+        "ネザーウォートとコーラスフルーツをオーバーワールに植える",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.title":
         "オーバーワールドの農業",
+    "advancement.madv_plus.mine.64_netherite_block.description":
+        "これが64ネザライトブロックをだ？",
+    "advancement.madv_plus.mine.64_netherite_block.title":
+        "資本主義",
     "advancement.madv_plus.redstone.comparator.description":
-        "比較や引き算や測定",
+        "比較や引き算や測定など",
     "advancement.madv_plus.redstone.comparator.title":
         "レッドストーンコンパレーター",
     "advancement.madv_plus.redstone.redstone_torch.description":
@@ -24,7 +36,7 @@
     "advancement.madv_plus.redstone.redstone_torch.title":
         "NOTゲート",
     "advancement.madv_plus.redstone.repeater.description":
-        "延長をストレージ",
+        "延長をストレージなど",
     "advancement.madv_plus.redstone.repeater.title":
         "レッドストーンリピーター",
     "advancement.madv_plus.story.all_bucket.description":
@@ -50,7 +62,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "もっと進捗のデータパックの紹介",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "バージョン：Alpha Replacing Elementarily / alpha-0.1.1-snapshot-26w21b (ARE AS)",
+        "バージョン：Alpha Replacing Elementarily / alpha-snapshot-26w22a (ARE AS)",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "もっと進捗のデータパックへようこそ",
     "command.initialization.messages.madv_plus.load":
