@@ -1,70 +1,70 @@
 {
     "advancement.madv_plus.adventure.attack_self.description":
-        "攻擊一個玩家，包括你自己",
+        "o pakala e jan ante anu sina",
     "advancement.madv_plus.adventure.attack_self.title":
-        "事故",
+        "o pakala",
     "advancement.madv_plus.adventure.all_item.title":
-        "物品全收集",
+        "ijo ale",
     "advancement.madv_plus.adventure.all_item.description":
-        "集齊每個物品",
+        "o lanpen e ijo ale",
     "advancement.madv_plus.end.end_rod.description":
-        "這玩意只是用來照明的……對吧？",
+        "ni li suno taso anu seme?",
     "advancement.madv_plus.end.end_rod.title":
-        "終界的燈光",
+        "suno lon ma pini",
     "advancement.madv_plus.husbandry.all_seed.description":
-        "獲取所有種子",
+        "o lanpen e sike mama pi kasi ale",
     "advancement.madv_plus.husbandry.all_seed.title":
-        "輪作",
+        "o pini e ma ante",
     "advancement.madv_plus.husbandry.campfire_using.description":
-        "這是用於煙燻的嗎？",
+        "ni li pali e moku",
     "advancement.madv_plus.husbandry.campfire_using.title":
-        "上飄煙霧的營火",
+        "seli palisa li pali",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.description":
-        "把地獄孢子和歌萊果種植於主世界",
+        "opini e kili nasa en soko wawa pi ma Nether lon ma pona",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.title":
-        "異界農業",
+        "o pini e ma lon ma pona",
     "advancement.madv_plus.mine.64_netherite_block.description":
-        "這是64個地獄合金磚？",
+        "ni li leko pi mani Netherite mute mute mute tu tu anu seme?",
     "advancement.madv_plus.mine.64_netherite_block.title":
-        "資產階級",
+        "leko epiku",
     "advancement.madv_plus.redstone.comparator.description":
-        "比較、作差、測量，一應俱全！",
+        "o lanpan e ilo pi ante wawa pi ko Redstone",
     "advancement.madv_plus.redstone.comparator.title":
-        "紅石比較器",
+        "o ante e nanpa",
     "advancement.madv_plus.redstone.redstone_torch.description":
-        "獲取紅石火把",
+        "o lanpan e palisa suno pi ko Redstone",
     "advancement.madv_plus.redstone.redstone_torch.title":
-        "非門",
+        "ala",
     "advancement.madv_plus.redstone.repeater.description":
-        "鎖存數據，延長信號",
+        "o lanpan e ilo pi tenpo wawa pi ko Redstone",
     "advancement.madv_plus.redstone.repeater.title":
-        "紅石中繼器",
+        "lon en ijo suli",
     "advancement.madv_plus.story.all_bucket.description":
-        "獲取每種桶",
+        "o lanpen e poki telo ale",
     "advancement.madv_plus.story.all_bucket.title":
-        "萬花桶",
+        "poki telo ale",
     "advancement.madv_plus.story.all_mob_bucket.description":
-        "獲取每種魚桶",
+        "o lanpen e kala lon poki ale",
     "advancement.madv_plus.story.all_mob_bucket.title":
-        "不透明魚缸",
+        "poki pi kala",
     "advancement.madv_plus.world.sponge.description":
-        "獲取一塊海綿",
+        "o lanpan e ko pi weka telo",
     "advancement.madv_plus.world.sponge.title":
-        "你說你獲得了什麼？",
+        "ijo ni li seme?",
     "gui.madv_plus.button.setting.introduction":
-        "數據包擴展簡介",
+        "open pi toki wawa suli",
     "gui.dialog.madv_plus.message.extension.debug_versions":
-        "擴展測試版警告：該擴展並非由原作者(Minecraft的小方塊)制作，且非正式版",
+        "o sona e ni: leko lili pi musi Manka ALA li pali e ni; ni li open",
     "gui.dialog.madv_plus.message.extension.debug_versions.more_information":
-        "[點擊查看詳情]",
+        "[o open e lipu]",
     "gui.dialog.madv_plus.message.extension.introduction.author":
-        "打開擴展作者的嗶哩嗶哩空間",
+        "open e jan pali pi lipu Pilipili",
     "gui.dialog.madv_plus.message.extension.introduction.title":
-        "更多進度 擴展 簡介",
+        "open pi pali ijo tawa pi pali pona mute tawa e musi Manka",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "版本：Alpha Replacing Elementarily\n快照：alpha-snapshot-26w22b (ARE AS)",
+        "nanpa toki wawa: open pi ante pi alupa\nsona: 26w22b pi alupa",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
-        "歡迎遊玩更多進度 - 擴展！",
+        "o kama pona tawa jan pali pi lipu Pilipili",
     "command.initialization.messages.madv_plus.load":
-        "更多進度數據包（擴展）Alpha Replacing Elementarily版本成功加載！"
+        "pini pali e pali ijo tawa pi pali pona mute tawa e musi Manka!"
 }
