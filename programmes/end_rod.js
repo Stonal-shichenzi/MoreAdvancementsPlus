@@ -16,13 +16,13 @@ function translation(tag, id, fallback, is_title)
 }
 var adv = {};
 adv.display = {};
-adv.parent = "minecraft:end/find_end_city.json";
+adv.parent = "minecraft:end/find_end_city";
 adv.criteria = {};
 adv.display.frame = "task";
 adv.display.icon = {}
 adv.display.icon.id = "minecraft:end_rod";
-adv.display.title = translation("world", "end_rod", "这玩意只是用来照明的……对吧？", true);
-adv.display.description = translation("world", "end_rod", "获得一根末地烛", false);
+adv.display.title = translation("world", "end_rod", "末地中的灯光", true);
+adv.display.description = translation("world", "end_rod", "这玩意只是用来照明的……对吧？", false);
 adv.criteria.sponge = {};
 adv.criteria.sponge.trigger = "minecraft:inventory_changed";
 adv.criteria.sponge.conditions = {};
