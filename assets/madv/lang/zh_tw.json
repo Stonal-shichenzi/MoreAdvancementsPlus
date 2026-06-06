@@ -39,6 +39,18 @@
         "鎖存數據，延長信號",
     "advancement.madv_plus.redstone.repeater.title":
         "紅石中繼器",
+    "advancement.madv_plus.redstone.calibrated_sculk_sensor.description":
+        "也許只有這個振測器可以探測範圍內的事情",
+    "advancement.madv_plus.redstone.calibrated_sculk_sensor.title":
+        "自帶濾波的振測器",
+    "advancement.madv_plus.redstone.daylight_dectector.description":
+        "也許這個紅石原件可以校准時鐘？",
+    "advancement.madv_plus.redstone.daylight_dectector.title":
+        "信息收集：陽光與熱能",
+    "advancement.madv_plus.redstone.sculk_sensor.description":
+        "伏聆振測器可以聽到範圍內一切聲音！",
+    "advancement.madv_plus.redstone.sculk_sensor.title":
+        "電阻很低的振測器",
     "advancement.madv_plus.story.all_bucket.description":
         "獲得每種桶",
     "advancement.madv_plus.story.all_bucket.title":
@@ -62,7 +74,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "更多進度 擴展 簡介",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "版本：Alpha Replacing Elementarily\n快照：alpha-snapshot-26w22b (ARE AS)",
+        "版本：Alpha Replacing Elementarily\n快照：alpha-snapshot-26w23a (ARE AS)",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "歡迎遊玩更多進度 - 擴展！",
     "command.initialization.messages.madv_plus.load":

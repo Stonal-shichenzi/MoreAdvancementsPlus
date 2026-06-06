@@ -8,7 +8,7 @@
     "advancement.madv_plus.adventure.all_item.description":
         "全てアイテムを手に入れる",
     "advancement.madv_plus.end.end_rod.description":
-        "こわは明るいです",
+        "これは明るいです",
     "advancement.madv_plus.end.end_rod.title":
         "ジ・エンドの光",
     "advancement.madv_plus.husbandry.all_seed.description":
@@ -39,6 +39,18 @@
         "延長をストレージなど",
     "advancement.madv_plus.redstone.repeater.title":
         "レッドストーンリピーター",
+    "advancement.madv_plus.redstone.calibrated_sculk_sensor.description":
+        "これが声を聞ける",
+    "advancement.madv_plus.redstone.calibrated_sculk_sensor.title":
+        "声のセンサー",
+    "advancement.madv_plus.redstone.daylight_dectector.description":
+        "しかし何事もを聞きたい",
+    "advancement.madv_plus.redstone.daylight_dectector.title":
+        "日のエナジー",
+    "advancement.madv_plus.redstone.sculk_sensor.description":
+        "レジストが少ないです",
+    "advancement.madv_plus.redstone.sculk_sensor.title":
+        "声のエナジー",
     "advancement.madv_plus.story.all_bucket.description":
         "すべてのバケツを手に入れる",
     "advancement.madv_plus.story.all_bucket.title":
@@ -62,7 +74,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "もっと進捗のデータパックの紹介",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "バージョン：Alpha Replacing Elementarily / alpha-snapshot-26w22b (ARE AS)",
+        "バージョン：Alpha Replacing Elementarily / alpha-snapshot-26w23a (ARE AS)",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "もっと進捗のデータパックへようこそ",
     "command.initialization.messages.madv_plus.load":

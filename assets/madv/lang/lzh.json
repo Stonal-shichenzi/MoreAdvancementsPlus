@@ -39,6 +39,18 @@
         "存、長文也",
     "advancement.madv_plus.redstone.repeater.title":
         "續赭儀",
+    "advancement.madv_plus.redstone.calibrated_sculk_sensor.description":
+        "其者，赭之耳也",
+    "advancement.madv_plus.redstone.calibrated_sculk_sensor.title":
+        "許用聲之探子",
+    "advancement.madv_plus.redstone.daylight_dectector.description":
+        "晷漏之準繩",
+    "advancement.madv_plus.redstone.daylight_dectector.title":
+        "日之訊",
+    "advancement.madv_plus.redstone.sculk_sensor.description":
+        "幽匿探子聞萬物也",
+    "advancement.madv_plus.redstone.sculk_sensor.title":
+        "聲之探子",
     "advancement.madv_plus.story.all_bucket.description":
         "得諸桶各一",
     "advancement.madv_plus.story.all_bucket.title":
@@ -58,11 +70,11 @@
     "gui.dialog.madv_plus.message.extension.debug_versions.more_information":
         "[擊以見詳]",
     "gui.dialog.madv_plus.message.extension.introduction.author":
-        "打開擴展作者的嗶哩嗶哩空間",
+        "啟製者之嗶哩嗶哩",
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "錄囊續",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "版：首測首更\n快照：首測快照二六週二二乙",
+        "版：首測首更\n快照：首測快照二六週二三甲",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "恭迎至益功續！",
     "command.initialization.messages.madv_plus.load":

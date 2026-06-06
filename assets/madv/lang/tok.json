@@ -20,7 +20,7 @@
     "advancement.madv_plus.husbandry.campfire_using.title":
         "seli palisa li pali",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.description":
-        "opini e kili nasa en soko wawa pi ma Nether lon ma pona",
+        "o pini e kili nasa en soko wawa pi ma Nether lon ma pona",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.title":
         "o pini e ma lon ma pona",
     "advancement.madv_plus.mine.64_netherite_block.description":
@@ -39,6 +39,18 @@
         "o lanpan e ilo pi tenpo wawa pi ko Redstone",
     "advancement.madv_plus.redstone.repeater.title":
         "lon en ijo suli",
+    "advancement.madv_plus.redstone.calibrated_sculk_sensor.description":
+        "o lanpen e soko Sculk kute",
+    "advancement.madv_plus.redstone.calibrated_sculk_sensor.title":
+        "o kute e ijo",
+    "advancement.madv_plus.redstone.daylight_dectector.description":
+        "o pona e tenpo",
+    "advancement.madv_plus.redstone.daylight_dectector.title":
+        "wawa suno",
+    "advancement.madv_plus.redstone.sculk_sensor.description":
+        "ni li kute e kalama",
+    "advancement.madv_plus.redstone.sculk_sensor.title":
+        "o kute la ilo ike",
     "advancement.madv_plus.story.all_bucket.description":
         "o lanpen e poki telo ale",
     "advancement.madv_plus.story.all_bucket.title":
@@ -62,7 +74,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "open pi pali ijo tawa pi pali pona mute tawa e musi Manka",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "nanpa toki wawa: open pi ante pi alupa\nsona: 26w22b pi alupa",
+        "nanpa toki wawa: open pi ante pi alupa\nsona: 26w23a pi alupa",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "o kama pona tawa jan pali pi lipu Pilipili",
     "command.initialization.messages.madv_plus.load":

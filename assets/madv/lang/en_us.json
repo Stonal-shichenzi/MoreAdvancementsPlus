@@ -1,8 +1,12 @@
 {
     "advancement.madv_plus.adventure.attack_self.description":
-        "Attack a player, incuding yoursef",
+        "Attack a player, incuding yourself",
     "advancement.madv_plus.adventure.attack_self.title":
         "Hurting Accident",
+    "advancement.madv_plus.adventure.all_item.description":
+        "Collect every items",
+    "advancement.madv_plus.adventure.all_item.title":
+        "A Good Collection",
     "advancement.madv_plus.end.end_rod.description":
         "It can be only used on lighting, right?",
     "advancement.madv_plus.end.end_rod.title":
@@ -12,13 +16,13 @@
     "advancement.madv_plus.husbandry.all_seed.title":
         "Crop Rotation",
     "advancement.madv_plus.husbandry.campfire_using.description":
-        "Does it have foods cooked?",
+        "Is it able to have foods cooked?",
     "advancement.madv_plus.husbandry.campfire_using.title":
         "Smoking Campfire",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.description":
-        "Break The Dimension: Farming",
+        "Plant a nether wart and a chorus flower in the overworld, and wait",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.title":
-        "Collect all types of buckets",
+        "Break The Dimension: Farming",
     "advancement.madv_plus.mine.64_netherite_block.description":
         "Are there 64 Blocks of Netherite?",
     "advancement.madv_plus.mine.64_netherite_block.title":
@@ -35,20 +39,32 @@
         "Latch is allowed, and you can also extend the signal!",
     "advancement.madv_plus.redstone.repeater.title":
         "Redstone Repeater",
+    "advancement.madv_plus.redstone.calibrated_sculk_sensor.description":
+        "Maybe... It is the ear of any machines",
+    "advancement.madv_plus.redstone.calibrated_sculk_sensor.title":
+        "Sensor With Frequency",
+    "advancement.madv_plus.redstone.daylight_dectector.description":
+        "It will always collect the energy coming from the sun!",
+    "advancement.madv_plus.redstone.daylight_dectector.title":
+        "The Power of The Sun",
+    "advancement.madv_plus.redstone.sculk_sensor.description":
+        "But the resistance seems to be too low...",
+    "advancement.madv_plus.redstone.sculk_sensor.title":
+        "No Sound, No Power",
     "advancement.madv_plus.story.all_bucket.description":
-        "Plant a nether wart and a chorus flower in the overworld, and wait",
+        "Collect all types of buckets",
     "advancement.madv_plus.story.all_bucket.title":
         "Kaleidobucket",
     "advancement.madv_plus.story.all_mob_bucket.description":
         "Collect all types of buckets with fishes",
     "advancement.madv_plus.story.all_mob_bucket.title":
         "Opaque Fish Jars",
-    "gui.madv_plus.button.setting.introduction":
-        "Extension: Introduction",
     "advancement.madv_plus.world.sponge.description":
         "Acquire Sponges",
     "advancement.madv_plus.world.sponge.title":
         "Exactly... What Did You Acquire?",
+    "gui.madv_plus.button.setting.introduction":
+        "Extension: Introduction",
     "gui.dialog.madv_plus.message.extension.debug_versions":
         "Warning: The datapack is neither the release version nor a pack by Minecraft Little Block (The Original Author)",
     "gui.dialog.madv_plus.message.extension.debug_versions.more_information":
@@ -58,7 +74,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "More Advancements (Extension): Introduction",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "Version: Alpha Replacing Elementarily\nSnapshot: alpha-snapshot-26w22b (ARE AS)",
+        "Version: Alpha Replacing Elementarily\nSnapshot: alpha-snapshot-26w23a (ARE AS)",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "Welcome to play the More Advancements (Extension)!",
     "command.initialization.messages.madv_plus.load":
