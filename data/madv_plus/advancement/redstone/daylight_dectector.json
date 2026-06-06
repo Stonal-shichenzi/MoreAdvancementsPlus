@@ -2,7 +2,7 @@
     "display": {
         "frame": "task",
         "icon": {
-            "id": "minecraft:daylight_dectector"
+            "id": "minecraft:daylight_detector"
         },
         "title": {
             "translate": "advancement.madv_plus.redstone.daylight_dectector.title",
@@ -20,7 +20,7 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:daylight_dectector"
+                        "items": "minecraft:daylight_detector"
                     }
                 ]
             }
