@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "task",
+        "icon": {
+            "id": "minecraft:calibrated_sculk_sensor"
+        },
+        "title": {
+            "translate": "advancement.madv_plus.redstone.calibrated_sculk_sensor.title",
+            "fallback": "自带滤波的传感器"
+        },
+        "description": {
+            "translate": "advancement.madv_plus.redstone.calibrated_sculk_sensor.description",
+            "fallback": "也许……只有这个传感器才能充当红石的耳朵……"
+        }
+    },
+    "parent": "madv_plus:redstone/sculk_sensor",
+    "criteria": {
+        "sponge": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:calibrated_sculk_sensor"
+                    }
+                ]
+            }
+        }
+    }
+}

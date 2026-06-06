@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "task",
+        "icon": {
+            "id": "minecraft:sculk_sensor"
+        },
+        "title": {
+            "translate": "advancement.madv_plus.redstone.sculk_sensor.title",
+            "fallback": "电阻很低的传感器"
+        },
+        "description": {
+            "translate": "advancement.madv_plus.redstone.sculk_sensor.description",
+            "fallback": "幽匿感测体可以聆听范围内一切声音！"
+        }
+    },
+    "parent": "madv:redstone/root",
+    "criteria": {
+        "sponge": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:sculk_sensor"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "task",
+        "icon": {
+            "id": "minecraft:daylight_dectector"
+        },
+        "title": {
+            "translate": "advancement.madv_plus.redstone.daylight_dectector.title",
+            "fallback": "信息收集：阳光与内能"
+        },
+        "description": {
+            "translate": "advancement.madv_plus.redstone.daylight_dectector.description",
+            "fallback": "也许这个红石原件可以校准时钟？"
+        }
+    },
+    "parent": "madv:redstone/root",
+    "criteria": {
+        "sponge": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:daylight_dectector"
+                    }
+                ]
+            }
+        }
+    }
+}
