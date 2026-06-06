@@ -37,7 +37,7 @@
                 "",
                 {
                    "translate": "gui.dialog.madv_plus.message.extension.introduction.version",
-                   "fallback": "版本：Alpha Replacing Elementarily\n快照：alpha-snapshot-26w22b (ARE AS)",
+                   "fallback": "版本：Alpha Replacing Elementarily\n快照：alpha-snapshot-26w23a (ARE AS)",
                    "color": "yellow"
                 }
             ],
