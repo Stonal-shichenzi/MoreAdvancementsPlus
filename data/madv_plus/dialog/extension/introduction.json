@@ -54,6 +54,13 @@
                 "type": "open_url",
                 "url": "https://space.bilibili.com/3494375371835592"
             }
+        },
+        {
+            "label": "WIKI",
+            "action": {
+                "type": "open_url",
+                "url": "https://madv-plus-wiki.surge.sh/madv_plus.html"
+            }
         }
     ]
 }
