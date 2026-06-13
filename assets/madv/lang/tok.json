@@ -34,11 +34,15 @@
     "advancement.madv_plus.husbandry.time_over_121_days.description":
         "pini pi tenpo mun nanpa tu wan",
     "advancement.madv_plus.husbandry.time_over_121_days.title":
-        "pimeja pi suno",
+        "siki",
     "advancement.madv_plus.husbandry.time_over_365_days.description":
         "pini pi tenpo sike",
     "advancement.madv_plus.husbandry.time_over_365_days.title":
         "tenpo sike",
+    "advancement.madv_plus.husbandry.time_over_day.description":
+        "pimeja pi ma",
+    "advancement.madv_plus.husbandry.time_over_day.title":
+        "tenpo pimeja nanpa wan",
     "advancement.madv_plus.mine.64_netherite_block.description":
         "ni li leko pi mani Netherite mute mute mute tu tu anu seme?",
     "advancement.madv_plus.mine.64_netherite_block.title":
