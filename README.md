@@ -1,7 +1,7 @@
 # English (US)
 An extension for [More Advancements](https://github.com/MC-Tiny-Block/More_Advancements).
 ## How to install
-View [this page](https://madv-plus-wiki.surge.sh/madv_plus/version.html), and you can find sone links. Click one of them to download.  
+View [this page](https://madv-plus-wiki.surge.sh/madv_plus/version.html), and you can find some links. Click one of them to download.  
 The bottom one is the newest version.
 ## How to play
 You need to install it as both [a resource pack](https://minecraft.wiki/w/Tutorial:Loading_a_resource_pack) and [a data pack](https://minecraft.wiki/w/Tutorial:Importing_a_data_pack).
