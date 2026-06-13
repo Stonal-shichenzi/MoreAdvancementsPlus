@@ -1,0 +1,22 @@
+{
+    "display": {
+        "frame": "task",
+        "icon": {
+            "id": "minecraft:clock"
+        },
+        "title": {
+            "translate": "advancement.madv_plus.husbandry.time_over_day.title",
+            "fallback": "度过首个夜晚"
+        },
+        "description": {
+            "translate": "advancement.madv_plus.husbandry.time_over_day.description",
+            "fallback": "你可以试试挖三填一"
+        }
+    },
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "linking": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

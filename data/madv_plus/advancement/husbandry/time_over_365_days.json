@@ -1,0 +1,22 @@
+{
+    "display": {
+        "frame": "task",
+        "icon": {
+            "id": "minecraft:clock"
+        },
+        "title": {
+            "translate": "advancement.madv_plus.husbandry.time_over_365_days.title",
+            "fallback": "跨年失败"
+        },
+        "description": {
+            "translate": "advancement.madv_plus.husbandry.time_over_365_days.description",
+            "fallback": "度过第365天的夜晚"
+        }
+    },
+    "parent": "madv_plus:husbandry/time_over_121_days",
+    "criteria": {
+        "linking": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

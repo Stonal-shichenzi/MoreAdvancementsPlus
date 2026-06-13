@@ -1,0 +1,22 @@
+{
+    "display": {
+        "frame": "task",
+        "icon": {
+            "id": "minecraft:clock"
+        },
+        "title": {
+            "translate": "advancement.madv_plus.husbandry.time_over_7_days.title",
+            "fallback": "周末会更好"
+        },
+        "description": {
+            "translate": "advancement.madv_plus.husbandry.time_over_7_days.description",
+            "fallback": "度过第7天的夜晚"
+        }
+    },
+    "parent": "madv_plus:husbandry/time_over_day",
+    "criteria": {
+        "linking": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

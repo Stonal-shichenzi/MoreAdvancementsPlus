@@ -1,0 +1,22 @@
+{
+    "display": {
+        "frame": "task",
+        "icon": {
+            "id": "minecraft:clock"
+        },
+        "title": {
+            "translate": "advancement.madv_plus.husbandry.time_over_121_days.title",
+            "fallback": "季节苦行山"
+        },
+        "description": {
+            "translate": "advancement.madv_plus.husbandry.time_over_121_days.description",
+            "fallback": "度过第121天的夜晚"
+        }
+    },
+    "parent": "madv_plus:husbandry/time_over_30_days",
+    "criteria": {
+        "linking": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

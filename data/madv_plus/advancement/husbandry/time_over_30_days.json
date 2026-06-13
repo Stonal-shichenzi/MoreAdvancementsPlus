@@ -1,0 +1,22 @@
+{
+    "display": {
+        "frame": "task",
+        "icon": {
+            "id": "minecraft:clock"
+        },
+        "title": {
+            "translate": "advancement.madv_plus.husbandry.time_over_30_days.title",
+            "fallback": "海上生盈月"
+        },
+        "description": {
+            "translate": "advancement.madv_plus.husbandry.time_over_30_days.description",
+            "fallback": "度过第30天的夜晚"
+        }
+    },
+    "parent": "madv_plus:husbandry/time_over_7_days",
+    "criteria": {
+        "linking": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
