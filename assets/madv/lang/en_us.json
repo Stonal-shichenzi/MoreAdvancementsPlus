@@ -21,6 +21,26 @@
         "Smoking Campfire",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.description":
         "Plant a nether wart and a chorus flower in the overworld, and wait",
+    "advancement.madv_plus.husbandry.time_over_7_days.description":
+        "The 7th sunrise might be mending",
+    "advancement.madv_plus.husbandry.time_over_7_days.title":
+        "Weekend Will Be Better",
+    "advancement.madv_plus.husbandry.time_over_30_days.description":
+        "When the sun rise... 30 times...",
+    "advancement.madv_plus.husbandry.time_over_30_days.title":
+        "New & Full Moon",
+    "advancement.madv_plus.husbandry.time_over_121_days.description":
+        "Well, the 121st day might be a challenge",
+    "advancement.madv_plus.husbandry.time_over_121_days.title":
+        "Season Age",
+    "advancement.madv_plus.husbandry.time_over_365_days.description":
+        "The 365th day!",
+    "advancement.madv_plus.husbandry.time_over_365_days.title":
+        "Spring & Autumn Peroid",
+    "advancement.madv_plus.husbandry.time_over_day.description":
+        "Dig the ground, jump into the hole, and cover it",
+    "advancement.madv_plus.husbandry.time_over_day.title":
+        "The First Night",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.title":
         "Break The Dimension: Farming",
     "advancement.madv_plus.mine.64_netherite_block.description":
@@ -74,7 +94,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "More Advancements (Extension): Introduction",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "Version: Alpha Replacing Elementarily\nSnapshot: alpha-snapshot-26w23a (ARE AS)",
+        "Version: Alpha Replacing Elementarily\nSnapshot: alpha-snapshot-26w24a (ARE AS)",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "Welcome to play the More Advancements (Extension)!",
     "command.initialization.messages.madv_plus.load":

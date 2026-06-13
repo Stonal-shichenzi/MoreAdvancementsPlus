@@ -23,6 +23,26 @@
         "ネザーウォートとコーラスフルーツをオーバーワールに植える",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.title":
         "オーバーワールドの農業",
+    "advancement.madv_plus.husbandry.time_over_7_days.description":
+        "7目日の夜",
+    "advancement.madv_plus.husbandry.time_over_7_days.title":
+        "週末は今日よりよいです",
+    "advancement.madv_plus.husbandry.time_over_30_days.description":
+        "日が30回昇る",
+    "advancement.madv_plus.husbandry.time_over_30_days.title":
+        "新月と満月",
+    "advancement.madv_plus.husbandry.time_over_121_days.description":
+        "121目日は挑戦です",
+    "advancement.madv_plus.husbandry.time_over_121_days.title":
+        "季節の推移",
+    "advancement.madv_plus.husbandry.time_over_365_days.description":
+        "365目日！",
+    "advancement.madv_plus.husbandry.time_over_365_days.title":
+        "春秋",
+    "advancement.madv_plus.husbandry.time_over_day.description":
+        "地面を掘る、跳ぶ、覆う",
+    "advancement.madv_plus.husbandry.time_over_day.title":
+        "1目日の夜",
     "advancement.madv_plus.mine.64_netherite_block.description":
         "これが64ネザライトブロックをだ？",
     "advancement.madv_plus.mine.64_netherite_block.title":
@@ -74,7 +94,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "もっと進捗のデータパックの紹介",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "バージョン：Alpha Replacing Elementarily / alpha-snapshot-26w23a (ARE AS)",
+        "バージョン：Alpha Replacing Elementarily / alpha-snapshot-26w24a (ARE AS)",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "もっと進捗のデータパックへようこそ",
     "command.initialization.messages.madv_plus.load":

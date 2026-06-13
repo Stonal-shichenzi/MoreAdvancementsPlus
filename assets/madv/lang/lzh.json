@@ -23,6 +23,22 @@
         "植焱界疣與頌緲果於主界",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.title":
         "異界農業",
+    "advancement.madv_plus.husbandry.time_over_7_days.description":
+        "旬末",
+    "advancement.madv_plus.husbandry.time_over_7_days.title":
+        "七日既終",
+    "advancement.madv_plus.husbandry.time_over_30_days.description":
+        "卅日則休",
+    "advancement.madv_plus.husbandry.time_over_30_days.title":
+        "海上生盈月",
+    "advancement.madv_plus.husbandry.time_over_121_days.description":
+        "斯者，春秋之終也",
+    "advancement.madv_plus.husbandry.time_over_121_days.title":
+        "春秋之終",
+    "advancement.madv_plus.husbandry.time_over_365_days.description":
+        "斯者，首年之終也",
+    "advancement.madv_plus.husbandry.time_over_365_days.title":
+        "寒暑易節",
     "advancement.madv_plus.mine.64_netherite_block.description":
         "此乃六十四玄鈺塊乎？",
     "advancement.madv_plus.mine.64_netherite_block.title":
@@ -74,7 +90,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "錄囊續",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "版：首測首更\n快照：首測快照二六週二三甲",
+        "版：首測首更\n快照：首測快照二六週二四甲",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "恭迎至益功續！",
     "command.initialization.messages.madv_plus.load":

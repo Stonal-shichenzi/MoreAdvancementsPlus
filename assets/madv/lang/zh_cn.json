@@ -23,6 +23,26 @@
         "在主世界种植下界疣和紫颂果",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.title":
         "异界农业",
+    "advancement.madv_plus.husbandry.time_over_7_days.description":
+        "度过第7天的夜晚",
+    "advancement.madv_plus.husbandry.time_over_7_days.title":
+        "周末会更好",
+    "advancement.madv_plus.husbandry.time_over_30_days.description":
+        "度过第30天的夜晚",
+    "advancement.madv_plus.husbandry.time_over_30_days.title":
+        "海上生盈月",
+    "advancement.madv_plus.husbandry.time_over_121_days.description":
+        "度过第121天的夜晚",
+    "advancement.madv_plus.husbandry.time_over_121_days.title":
+        "季节苦行山",
+    "advancement.madv_plus.husbandry.time_over_365_days.description":
+        "度过第365天的夜晚",
+    "advancement.madv_plus.husbandry.time_over_365_days.title":
+        "跨年失败",
+    "advancement.madv_plus.husbandry.time_over_day.description":
+        "你可以试试挖三填一",
+    "advancement.madv_plus.husbandry.time_over_day.title":
+        "度过首个夜晚",
     "advancement.madv_plus.mine.64_netherite_block.description":
         "这是64个下界合金块？",
     "advancement.madv_plus.mine.64_netherite_block.title":
@@ -74,7 +94,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "更多进度 扩展 简介",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "版本：Alpha Replacing Elementarily\n快照：alpha-snapshot-26w23a (ARE AS)",
+        "版本：Alpha Replacing Elementarily\n快照：alpha-snapshot-26w24a (ARE AS)",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "欢迎游玩更多进度 - 扩展！（本扩展包默认支持英文与简体中文）",
     "command.initialization.messages.madv_plus.load":

@@ -23,6 +23,22 @@
         "把地獄孢子和歌萊果種植於主世界",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.title":
         "異界農業",
+    "advancement.madv_plus.husbandry.time_over_7_days.description":
+        "度過第7天的夜晚",
+    "advancement.madv_plus.husbandry.time_over_7_days.title":
+        "周末會更好",
+    "advancement.madv_plus.husbandry.time_over_30_days.description":
+        "度過第30天的夜晚",
+    "advancement.madv_plus.husbandry.time_over_30_days.title":
+        "海上生盈月",
+    "advancement.madv_plus.husbandry.time_over_121_days.description":
+        "度過第121天的夜晚",
+    "advancement.madv_plus.husbandry.time_over_121_days.title":
+        "季節苦行山",
+    "advancement.madv_plus.husbandry.time_over_365_days.description":
+        "度過第365天的夜晚",
+    "advancement.madv_plus.husbandry.time_over_365_days.title":
+        "跨年失敗",
     "advancement.madv_plus.mine.64_netherite_block.description":
         "這是64個地獄合金磚？",
     "advancement.madv_plus.mine.64_netherite_block.title":
@@ -74,7 +90,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "更多進度 擴展 簡介",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "版本：Alpha Replacing Elementarily\n快照：alpha-snapshot-26w23a (ARE AS)",
+        "版本：Alpha Replacing Elementarily\n快照：alpha-snapshot-26w24a (ARE AS)",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "歡迎遊玩更多進度 - 擴展！",
     "command.initialization.messages.madv_plus.load":

@@ -23,6 +23,22 @@
         "o pini e kili nasa en soko wawa pi ma Nether lon ma pona",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.title":
         "o pini e ma lon ma pona",
+    "advancement.madv_plus.husbandry.time_over_7_days.description":
+        "ona pona tawa tenpo ni",
+    "advancement.madv_plus.husbandry.time_over_7_days.title":
+        "pini pi tenpo pimeja nanpa kula tu",
+    "advancement.madv_plus.husbandry.time_over_30_days.description":
+        "pini pi tenpo mun",
+    "advancement.madv_plus.husbandry.time_over_30_days.title":
+        "mun walo",
+    "advancement.madv_plus.husbandry.time_over_121_days.description":
+        "pini pi tenpo mun nanpa tu wan",
+    "advancement.madv_plus.husbandry.time_over_121_days.title":
+        "pimeja pi suno",
+    "advancement.madv_plus.husbandry.time_over_365_days.description":
+        "pini pi tenpo sike",
+    "advancement.madv_plus.husbandry.time_over_365_days.title":
+        "tenpo sike",
     "advancement.madv_plus.mine.64_netherite_block.description":
         "ni li leko pi mani Netherite mute mute mute tu tu anu seme?",
     "advancement.madv_plus.mine.64_netherite_block.title":
@@ -74,7 +90,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "open pi pali ijo tawa pi pali pona mute tawa e musi Manka",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "nanpa toki wawa: open pi ante pi alupa\nsona: 26w23a pi alupa",
+        "nanpa toki wawa: open pi ante pi alupa\nsona: 26w24a pi alupa",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "o kama pona tawa jan pali pi lipu Pilipili",
     "command.initialization.messages.madv_plus.load":
