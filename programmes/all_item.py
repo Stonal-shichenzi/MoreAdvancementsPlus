@@ -1429,7 +1429,34 @@ writable_book
 written_book
 yellow_bundle
 yellow_dye
-yellow_harness"""
+yellow_harness
+sulfur_cube_bucket
+music_disc_bounce
+sulfur
+sulfur_brick_slab
+sulfur_brick_stairs
+sulfur_brick_wall
+sulfur_bricks
+sulfur_slab
+sulfur_spike
+sulfur_stairs
+sulfur_wall
+cinnabar
+cinnabar_brick_slab
+cinnabar_brick_stairs
+cinnabar_brick_wall
+cinnabar_bricks
+cinnabar_slab
+cinnabar_stairs
+cinnabar_wall
+polished_cinnabar
+polished_cinnabar_slab
+polished_cinnabar_stairs
+polished_cinnabar_wall
+polished_sulfur
+polished_sulfur_slab
+polished_sulfur_stairs
+polished_sulfur_wall"""
 all_items_that_are_allowed_to_acquire_array = all_items_that_are_allowed_to_acquire.split("\n")
 
 adv_id = "all_item"

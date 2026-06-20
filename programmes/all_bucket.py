@@ -26,7 +26,7 @@ display["icon"] = {"id": "minecraft:bucket"}
 display["title"] = translation("万花桶")
 display["description"] = translation("收集所有种类的桶", False)
 
-bucket_array = ["bucket", "water_bucket", "lava_bucket", "powder_snow_bucket", "milk_bucket"]
+bucket_array = ["bucket", "water_bucket", "lava_bucket", "powder_snow_bucket", "milk_bucket", "sulfur_cube_bucket"]
 mob_bucket = map(lambda i: i + "_bucket", ("pufferfish", "salmon", "cod", "tropical_fish", "axolotl", "tadpole"))
 bucket_array.extend(mob_bucket)
 for i in bucket_array:
