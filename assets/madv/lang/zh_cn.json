@@ -7,6 +7,38 @@
         "物品全收集",
     "advancement.madv_plus.adventure.all_item.description":
         "集齐所有物品",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wool.description":
+        "向硫方怪填充羊毛类方块",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wool.title":
+        "气球",
+    "advancement.madv_plus.adventure.sulfur_filled_with_stone_tool_materials.description":
+        "向硫方怪填充圆石类方块",
+    "advancement.madv_plus.adventure.sulfur_filled_with_stone_tool_materials.title":
+        "『石』㐬方怪",
+    "advancement.madv_plus.adventure.sulfur_filled_with_colourful_blocks.description":
+        "向硫方怪填充混凝土或陶瓦",
+    "advancement.madv_plus.adventure.sulfur_filled_with_colourful_blocks.title":
+        "缤纷的可移动方块",
+    "advancement.madv_plus.adventure.sulfur_filled_with_dirt_plus.description":
+        "向硫方怪填充泥土类方块",
+    "advancement.madv_plus.adventure.sulfur_filled_with_dirt_plus.title":
+        "准备射门！",
+    "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.description":
+        "向硫方怪填充岩浆块",
+    "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.title":
+        "焱热",
+    "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.description":
+        "向硫方怪填充矿物及矿物块",
+    "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.title":
+        "“矿”艺中的硫方怪",
+    "advancement.madv_plus.adventure.sulfur_filled_with_soul_fire_base_blocks.description":
+        "向硫方怪填充灵魂沙或灵魂土",
+    "advancement.madv_plus.adventure.sulfur_filled_with_soul_fire_base_blocks.title":
+        "特大摩擦力",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wood.description":
+        "向硫方怪填充木头类方块",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wood.title":
+        "弹力十足",
     "advancement.madv_plus.end.end_rod.description":
         "这玩意只是用来照明的……对吧？",
     "advancement.madv_plus.end.end_rod.title":
@@ -47,6 +79,10 @@
         "这是64个下界合金块？",
     "advancement.madv_plus.mine.64_netherite_block.title":
         "如太阳一般炫酷",
+    "advancement.madv_plus.monsters_and_combat.super_spear_plus.description":
+        "用矛一击对末影螨造成恰好100点伤害",
+    "advancement.madv_plus.monsters_and_combat.super_spear_plus.title":
+        "精确制导：自增版",
     "advancement.madv_plus.redstone.comparator.description":
         "比较、作差、测量，一应俱全！",
     "advancement.madv_plus.redstone.comparator.title":
@@ -94,7 +130,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "更多进度 扩展 简介",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "版本：Alpha Replacing Elementarily\n快照：alpha-snapshot-26w24a (ARE AS)",
+        "版本：Alpha Replacing Elementarily\n快照：alpha-snapshot-26w25a (ARE AS)",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "欢迎游玩更多进度 - 扩展！（本扩展包默认支持英文与简体中文）",
     "command.initialization.messages.madv_plus.load":

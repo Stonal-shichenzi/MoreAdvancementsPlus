@@ -7,6 +7,38 @@
         "全てアイテム",
     "advancement.madv_plus.adventure.all_item.description":
         "全てアイテムを手に入れる",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wool.description":
+        "サルファーキューブが羊毛を吸収せよ",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wool.title":
+        "気球",
+    "advancement.madv_plus.adventure.sulfur_filled_with_stone_tool_materials.description":
+        "サルファーキューブが丸石を吸収せよ",
+    "advancement.madv_plus.adventure.sulfur_filled_with_stone_tool_materials.title":
+        "『石』㐬黄キューブ",
+    "advancement.madv_plus.adventure.sulfur_filled_with_colourful_blocks.description":
+        "サルファーキューブがコンクリートやテラコッタを吸収せよ",
+    "advancement.madv_plus.adventure.sulfur_filled_with_colourful_blocks.title":
+        "多彩なブロックが動ける",
+    "advancement.madv_plus.adventure.sulfur_filled_with_dirt_plus.description":
+        "サルファーキューブが土などを吸収せよ",
+    "advancement.madv_plus.adventure.sulfur_filled_with_dirt_plus.title":
+        "いい射撃",
+    "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.description":
+        "サルファーキューブがマグマブロックを吸収せよ",
+    "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.title":
+        "熱い！熱い！",
+    "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.description":
+        "サルファーキューブが鉱石を吸収せよ",
+    "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.title":
+        "「マイン」クラフトのサルファーキューブ",
+    "advancement.madv_plus.adventure.sulfur_filled_with_soul_fire_base_blocks.description":
+        "サルファーキューブがソウルサンドやソウルソイルを吸収せよ",
+    "advancement.madv_plus.adventure.sulfur_filled_with_soul_fire_base_blocks.title":
+        "大きい摩擦",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wood.description":
+        "サルファーキューブが木を吸収せよ",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wood.title":
+        "弾性",
     "advancement.madv_plus.end.end_rod.description":
         "これは明るいです",
     "advancement.madv_plus.end.end_rod.title":
@@ -47,6 +79,10 @@
         "これが64ネザライトブロックをだ？",
     "advancement.madv_plus.mine.64_netherite_block.title":
         "資本主義",
+    "advancement.madv_plus.monsters_and_combat.super_spear_plus.description":
+        "槍で殴る100のダメージを\nダメージの数は大きいです、ダメージの数は小さいです",
+    "advancement.madv_plus.monsters_and_combat.super_spear_plus.title":
+        "いい殴り！いい殴り！",
     "advancement.madv_plus.redstone.comparator.description":
         "比較や引き算や測定など",
     "advancement.madv_plus.redstone.comparator.title":
@@ -94,7 +130,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "もっと進捗のデータパックの紹介",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "バージョン：Alpha Replacing Elementarily / alpha-snapshot-26w24a (ARE AS)",
+        "バージョン：Alpha Replacing Elementarily / alpha-snapshot-26w25a (ARE AS)",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "もっと進捗のデータパックへようこそ",
     "command.initialization.messages.madv_plus.load":

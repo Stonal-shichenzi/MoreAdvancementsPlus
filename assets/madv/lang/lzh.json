@@ -7,6 +7,38 @@
         "集物冊",
     "advancement.madv_plus.adventure.all_item.description":
         "得諸物各一",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wool.description":
+        "充硫方靈以羊毛",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wool.title":
+        "氣球",
+    "advancement.madv_plus.adventure.sulfur_filled_with_stone_tool_materials.description":
+        "充硫方靈以䃮",
+    "advancement.madv_plus.adventure.sulfur_filled_with_stone_tool_materials.title":
+        "『石』㐬方靈",
+    "advancement.madv_plus.adventure.sulfur_filled_with_colourful_blocks.description":
+        "充硫方靈以砼若陶",
+    "advancement.madv_plus.adventure.sulfur_filled_with_colourful_blocks.title":
+        "萬色塊方爲所移",
+    "advancement.madv_plus.adventure.sulfur_filled_with_dirt_plus.description":
+        "充硫方靈以土",
+    "advancement.madv_plus.adventure.sulfur_filled_with_dirt_plus.title":
+        "射之！",
+    "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.description":
+        "充硫方靈以火漿塊",
+    "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.title":
+        "燚",
+    "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.description":
+        "充硫方靈以礦",
+    "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.title":
+        "『礦』藝之硫方靈",
+    "advancement.madv_plus.adventure.sulfur_filled_with_soul_fire_base_blocks.description":
+        "充硫方靈以靈沙若靈土",
+    "advancement.madv_plus.adventure.sulfur_filled_with_soul_fire_base_blocks.title":
+        "宏摩",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wood.description":
+        "充硫方靈以木",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wood.title":
+        "彈也",
     "advancement.madv_plus.end.end_rod.description":
         "此物惟可明乎？",
     "advancement.madv_plus.end.end_rod.title":
@@ -47,6 +79,10 @@
         "此乃六十四玄鈺塊乎？",
     "advancement.madv_plus.mine.64_netherite_block.title":
         "財若和珅",
+    "advancement.madv_plus.monsters_and_combat.super_spear_plus.description":
+        "戲者擊一終眇蟎，斯蟎爲所百傷焉",
+    "advancement.madv_plus.monsters_and_combat.super_spear_plus.title":
+        "噫！中矣！",
     "advancement.madv_plus.redstone.comparator.description":
         "較、差、測，皆可！",
     "advancement.madv_plus.redstone.comparator.title":
@@ -94,7 +130,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "錄囊續",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "版：首測首更\n快照：首測快照二六週二四甲",
+        "版：首測首更\n快照：首測快照二六週二五甲",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "恭迎至益功續！",
     "command.initialization.messages.madv_plus.load":

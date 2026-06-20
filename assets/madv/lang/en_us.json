@@ -7,6 +7,38 @@
         "Collect every items",
     "advancement.madv_plus.adventure.all_item.title":
         "A Good Collection",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wool.description":
+        "Fill the Sulfur Cube with wools",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wool.title":
+        "Balloons",
+    "advancement.madv_plus.adventure.sulfur_filled_with_stone_tool_materials.description":
+        "Fill the Sulfur Cube with cobbledstones",
+    "advancement.madv_plus.adventure.sulfur_filled_with_stone_tool_materials.title":
+        "Sulfur Is Stone",
+    "advancement.madv_plus.adventure.sulfur_filled_with_colourful_blocks.description":
+        "Fill the Sulfur Cube with ",
+    "advancement.madv_plus.adventure.sulfur_filled_with_colourful_blocks.title":
+        "Colourful Moveable Blocks",
+    "advancement.madv_plus.adventure.sulfur_filled_with_dirt_plus.description":
+        "Fill the Sulfur Cube with Dirt or something like Dirt",
+    "advancement.madv_plus.adventure.sulfur_filled_with_dirt_plus.title":
+        "Goal!",
+    "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.description":
+        "Fill the Sulfur Cube with Magma Block",
+    "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.title":
+        "HEATING",
+    "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.description":
+        "Fill the Sulfur Cube with ores",
+    "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.title":
+        "The Sulfur Cube in MINEcraft",
+    "advancement.madv_plus.adventure.sulfur_filled_with_soul_fire_base_blocks.description":
+        "Fill the Sulfur Cube with Soul Soil or Soul Sand",
+    "advancement.madv_plus.adventure.sulfur_filled_with_soul_fire_base_blocks.title":
+        "Super Friction",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wood.description":
+        "Fill the Sulfur Cube with woods",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wood.title":
+        "Elastic",
     "advancement.madv_plus.end.end_rod.description":
         "It can be only used on lighting, right?",
     "advancement.madv_plus.end.end_rod.title":
@@ -43,6 +75,10 @@
         "The First Night",
     "advancement.madv_plus.husbandry.overworld_wart_chorus.title":
         "Break The Dimension: Farming",
+    "advancement.madv_plus.monsters_and_combat.super_spear_plus.description":
+        "Deal 100 points of damage in a single hit to an Endermite with a Spear, however, ONLY 100 points are allowed",
+    "advancement.madv_plus.monsters_and_combat.super_spear_plus.title":
+        "Precision Guidance PLUS-SS-SSS!!!",
     "advancement.madv_plus.mine.64_netherite_block.description":
         "Are there 64 Blocks of Netherite?",
     "advancement.madv_plus.mine.64_netherite_block.title":
@@ -94,7 +130,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "More Advancements (Extension): Introduction",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "Version: Alpha Replacing Elementarily\nSnapshot: alpha-snapshot-26w24a (ARE AS)",
+        "Version: Alpha Replacing Elementarily\nSnapshot: alpha-snapshot-26w25a (ARE AS)",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "Welcome to play the More Advancements (Extension)!",
     "command.initialization.messages.madv_plus.load":

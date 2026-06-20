@@ -7,6 +7,38 @@
         "ijo ale",
     "advancement.madv_plus.adventure.all_item.description":
         "o lanpen e ijo ale",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wool.description":
+        "o poki e leko ko jaki kepeken len",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wool.title":
+        "poki pi kon",
+    "advancement.madv_plus.adventure.sulfur_filled_with_stone_tool_materials.description":
+        "o poki e leko ko jaki kepeken kiwen nena",
+    "advancement.madv_plus.adventure.sulfur_filled_with_stone_tool_materials.title":
+        "kiwen li pali e leko ko jaki",
+    "advancement.madv_plus.adventure.sulfur_filled_with_colourful_blocks.description":
+        "o poki e leko ko jaki kepeken ma kiwen en kiwen kule",
+    "advancement.madv_plus.adventure.sulfur_filled_with_colourful_blocks.title":
+        "leko kule ken tawa",
+    "advancement.madv_plus.adventure.sulfur_filled_with_dirt_plus.description":
+        "o poki e leko ko jaki kepeken ma",
+    "advancement.madv_plus.adventure.sulfur_filled_with_dirt_plus.title":
+        "o pana e sike",
+    "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.description":
+        "o poki e leko ko jaki kepeken kiwen seli",
+    "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.title":
+        "seli tawa",
+    "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.description":
+        "o poki e leko ko jaki kepeken insa kiwen",
+    "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.title":
+        "leko ko jaki pi insa kiwen",
+    "advancement.madv_plus.adventure.sulfur_filled_with_soul_fire_base_blocks.description":
+        "o poki e leko ko jaki kepeken ",
+    "advancement.madv_plus.adventure.sulfur_filled_with_soul_fire_base_blocks.title":
+        "wawa suli pi ni",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wood.description":
+        "o poki e leko ko jaki kepeken ",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wood.title":
+        "tawa sewi suli tawa",
     "advancement.madv_plus.end.end_rod.description":
         "ni li suno taso anu seme?",
     "advancement.madv_plus.end.end_rod.title":
@@ -47,6 +79,10 @@
         "ni li leko pi mani Netherite mute mute mute tu tu anu seme?",
     "advancement.madv_plus.mine.64_netherite_block.title":
         "leko epiku",
+    "advancement.madv_plus.monsters_and_combat.super_spear_plus.description":
+        "o pakala e pipi pi ma End, pakala pi ni li ale pona",
+    "advancement.madv_plus.monsters_and_combat.super_spear_plus.title":
+        "o pana e ijo! ni li pona tawa!",
     "advancement.madv_plus.redstone.comparator.description":
         "o lanpan e ilo pi ante wawa pi ko Redstone",
     "advancement.madv_plus.redstone.comparator.title":
@@ -94,7 +130,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "open pi pali ijo tawa pi pali pona mute tawa e musi Manka",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "nanpa toki wawa: open pi ante pi alupa\nsona: 26w24a pi alupa",
+        "nanpa toki wawa: open pi ante pi alupa\nsona: 26w25a pi alupa",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "o kama pona tawa jan pali pi lipu Pilipili",
     "command.initialization.messages.madv_plus.load":

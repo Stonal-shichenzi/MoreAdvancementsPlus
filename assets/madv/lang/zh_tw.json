@@ -7,6 +7,38 @@
         "物品全收集",
     "advancement.madv_plus.adventure.all_item.description":
         "集齊每個物品",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wool.description":
+        "向硫磺立方怪填充羊毛類方塊",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wool.title":
+        "氣球",
+    "advancement.madv_plus.adventure.sulfur_filled_with_stone_tool_materials.description":
+        "向硫磺立方怪填充鵝卵石類方塊",
+    "advancement.madv_plus.adventure.sulfur_filled_with_stone_tool_materials.title":
+        "『石』磺立方怪",
+    "advancement.madv_plus.adventure.sulfur_filled_with_colourful_blocks.description":
+        "向硫磺立方怪填充混凝土或陶土",
+    "advancement.madv_plus.adventure.sulfur_filled_with_colourful_blocks.title":
+        "繽紛的可移動方塊",
+    "advancement.madv_plus.adventure.sulfur_filled_with_dirt_plus.description":
+        "向硫磺立方怪填充泥土類方塊",
+    "advancement.madv_plus.adventure.sulfur_filled_with_dirt_plus.title":
+        "射門！",
+    "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.description":
+        "向硫磺立方怪填充岩漿塊",
+    "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.title":
+        "焱熱",
+    "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.description":
+        "向硫磺立方怪填充礦物及礦物塊",
+    "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.title":
+        "“礦”藝中的硫磺立方怪",
+    "advancement.madv_plus.adventure.sulfur_filled_with_soul_fire_base_blocks.description":
+        "向硫磺立方怪填充靈魂砂或靈魂土",
+    "advancement.madv_plus.adventure.sulfur_filled_with_soul_fire_base_blocks.title":
+        "極大摩擦力",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wood.description":
+        "向硫磺立方怪填充木質方塊",
+    "advancement.madv_plus.adventure.sulfur_filled_with_wood.title":
+        "彈力十足",
     "advancement.madv_plus.end.end_rod.description":
         "這玩意只是用來照明的……對吧？",
     "advancement.madv_plus.end.end_rod.title":
@@ -47,6 +79,10 @@
         "這是64個獄髓方塊？",
     "advancement.madv_plus.mine.64_netherite_block.title":
         "資產階級",
+    "advancement.madv_plus.monsters_and_combat.super_spear_plus.description":
+        "用矛一擊對終界蟎造成恰好100點傷害",
+    "advancement.madv_plus.monsters_and_combat.super_spear_plus.title":
+        "精準制導：自增版",
     "advancement.madv_plus.redstone.comparator.description":
         "比較、作差、測量，一應俱全！",
     "advancement.madv_plus.redstone.comparator.title":
@@ -94,7 +130,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "更多進度 擴展 簡介",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "版本：Alpha Replacing Elementarily\n快照：alpha-snapshot-26w24a (ARE AS)",
+        "版本：Alpha Replacing Elementarily\n快照：alpha-snapshot-26w25a (ARE AS)",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "歡迎遊玩更多進度 - 擴展！",
     "command.initialization.messages.madv_plus.load":
