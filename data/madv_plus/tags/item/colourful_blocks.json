@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:concrete",
+        "#minecraft:concrete_powders",
+        "#minecraft:terracotta",
+        "#minecraft:glazed_terracotta"
+    ]
+}

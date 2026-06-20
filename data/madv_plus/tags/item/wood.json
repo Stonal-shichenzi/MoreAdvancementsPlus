@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:logs",
+        "#minecraft:planks",
+        "minecraft:bamboo_block",
+        "minecraft:bamboo_mosaic",
+        "minecraft:stripped_bamboo_block"
+    ]
+}

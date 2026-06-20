@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:dirt",
+        "minecraft:podzol",
+        "minecraft:grass_block"
+    ]
+}
