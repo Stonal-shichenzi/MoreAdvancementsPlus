@@ -1,0 +1,64 @@
+{
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "thrown": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "item": {
+                    "items": "#madv_plus:dirt_plus"
+                },
+                "entity": [
+                    {
+                        "entity": "this",
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "entity_type": "minecraft:sulfur_cube",
+                            "flags": {
+                                "is_baby": false
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "interact": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": "#madv_plus:dirt_plus"
+                },
+                "entity": [
+                    {
+                        "entity": "this",
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "entity_type": "minecraft:sulfur_cube",
+                            "flags": {
+                                "is_baby": false
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "translate": "advancement.madv_plus.adventure.sulfur_filled_with_dirt_plus.title",
+            "fallback": "准备射门！"
+        },
+        "description": {
+            "translate": "advancement.madv_plus.adventure.sulfur_filled_with_dirt_plus.description",
+            "fallback": "向硫方怪填充泥土类方块"
+        },
+        "icon": {
+            "id": "minecraft:dirt"
+        }
+    },
+    "requirements": [
+        [
+            "interact",
+            "thrown"
+        ]
+    ]
+}

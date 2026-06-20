@@ -1,0 +1,64 @@
+{
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "thrown": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "item": {
+                    "items": "#madv_plus:colourful_blocks"
+                },
+                "entity": [
+                    {
+                        "entity": "this",
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "entity_type": "minecraft:sulfur_cube",
+                            "flags": {
+                                "is_baby": false
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "interact": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": "#madv_plus:colourful_blocks"
+                },
+                "entity": [
+                    {
+                        "entity": "this",
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "entity_type": "minecraft:sulfur_cube",
+                            "flags": {
+                                "is_baby": false
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "translate": "advancement.madv_plus.adventure.sulfur_filled_with_colourful_blocks.title",
+            "fallback": "缤纷的可移动方块"
+        },
+        "description": {
+            "translate": "advancement.madv_plus.adventure.sulfur_filled_with_colourful_blocks.description",
+            "fallback": "向硫方怪填充混凝土或陶瓦"
+        },
+        "icon": {
+            "id": "minecraft:terracotta"
+        }
+    },
+    "requirements": [
+        [
+            "interact",
+            "thrown"
+        ]
+    ]
+}

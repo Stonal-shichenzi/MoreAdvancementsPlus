@@ -4,7 +4,7 @@
         "player_hurt_player": {
             "conditions": {
                 "entity": {
-                    "type": "minecraft:player"
+                    "entity_type": "minecraft:player"
                 }
             },
             "trigger": "minecraft:player_hurt_entity"
