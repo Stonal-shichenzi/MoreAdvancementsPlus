@@ -1,0 +1,38 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "id": "minecraft:netherite_spear"
+        },
+        "title": {
+            "translate": "advancement.madv_plus.monsters_and_combat.super_spear_plus.title",
+            "fallback": "精确制导：自增版"
+        },
+        "description": {
+            "translate": "advancement.madv_plus.monsters_and_combat.super_spear_plus.description",
+            "fallback": "用矛一击对末影螨造成恰好100点伤害"
+        }
+    },
+    "parent": "madv:temp/root",
+    "criteria": {
+        "super_spear": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "dealt": 100,
+                    "type": {
+                        "tags": [
+                            {
+                                "id": "madv:is_spear",
+                                "expected": true
+                            }
+                        ]
+                    }
+                },
+                "entity": {
+                    "entity_type": "minecraft:endermite"
+                }
+            }
+        }
+    }
+}
