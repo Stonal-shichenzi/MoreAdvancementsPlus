@@ -1,28 +1,107 @@
 import json, os
 from sys import argv
 
-def entity_predicate_update(predicate: dict) -> dict:
+class constant():
+    defined = False
+    def __init__(self, value = None) -> None:
+        self.__value = value
+        self.defined = False if value is None else True
+    def set_value(self, value) -> None:
+        if self.defined:
+            raise ValueError("the constant has already written; do never override")
+        else:
+            self.__value = value
+            self.defined = True
+    def get_value(self):
+        return self.__value
+def entity_predicate_update(predicate: dict, namespaced = True, key_array = list()) -> dict:
+    # print(predicate)
+    # if not len(key_array):
+    #     key_array = predicate.keys()
+    # key_array = constant(list(key_array))
+    # for i in key_array.get_value():
+    #     i = str(i)
+    #     j = i.replace("minecraft:", "")
+    #     new_key = ("minecraft:" if (i != "condition" and i != "entity" and namespaced) else str()) + j
+    #     # print(i, new_key, sep=", ")
+    #     if i == "predicates":
+    #         if "minecraft:predicates" in predicate:
+    #             predicate["minecraft:predicate"] = predicate["minecraft:predicates"]
+    #             del predicate["minecraft:predicates"]
+    #         if "predicates" in predicate:
+    #             predicate["minecraft:predicate"] = predicate["predicates"]
+    #             del predicate["predicates"]
+    #     elif j = "entity_type"
+    #     elif (i != "condition" and i != "entity"):
+    #         predicate[new_key] = predicate[i]
+    #         del predicate[i]
     if "type" in predicate:
-        predicate["entity_type"] = predicate["type"]
+        predicate["minecraft:entity_type" if namespaced else "entity_type"] = predicate["type"]
         del predicate["type"]
     if "type_specific" in predicate:
-        type_specific = predicate["type_specific"]["type"]
-        if type_specific == "slime":
-            type_specific = "cube_mob"
-        type_specific = "minecraft:type_specific/" + type_specific
-        del predicate["type_specific"]["type"]
-        predicate[type_specific] = predicate["type_specific"]
+        global error_counter
+        if "type" in predicate["type_specific"]:
+            type_specific = str(predicate["type_specific"]["type"]).replace("minecraft:", "")
+            if type_specific == "slime":
+                type_specific = "cube_mob"
+            type_specific = "minecraft:type_specific/" + type_specific
+            del predicate["type_specific"]["type"]
+            predicate[type_specific] = predicate["type_specific"]
+            del predicate["type_specific"]
+        else:
+            print("无法处理：缺少实体子谓词类型！！！")
+            error_counter += 1
+    if "predicate" in predicate:
+        predicate["predicates"] = dict(predicate["predicate"]).copy()
+        # print(predicate["minecraft:predicate"])
+        if "type" in predicate["predicates"]:
+            predicate["predicates"]["entity_type"] = predicate["predicates"]["type"]
+            del predicate["predicates"]["type"]
+        # print(predicate["minecraft:predicates"])
+        predicate.pop("predicate")
+    # else:
+    #     print("*")
+    # if "minecraft:entity_type" in predicate and not namespaced:
+    #     predicate["entity_type"] = predicate["minecraft:entity_type"]
+    #     del predicate["minecraft:entity_type"]
+    # print(predicate)
+    if "vehicle" in predicate:
+        predicate["vehicle"] = entity_predicate_update(predicate["vehicle"])
+    if "passenger" in predicate:
+        predicate["passenger"] = entity_predicate_update(predicate["passenger"])
+    if "targeted_entity" in predicate:
+        predicate["targeted_entity"] = entity_predicate_update(predicate["targeted_entity"])
+    return predicate
+def killing_blow_predicate_update(predicate: dict) -> dict:
+    if "direct_entity" in predicate:
+        predicate["direct_entity"] = entity_predicate_update(predicate["direct_entity"])
+    if "source_entity" in predicate:
+        predicate["source_entity"] = entity_predicate_update(predicate["source_entity"])
+    return predicate
+def damage_predicate_update(predicate: dict) -> dict:
+    if "source_entity" in predicate:
+        predicate["source_entity"] = entity_predicate_update(predicate["source_entity"])
+    if "type" in predicate:
+        predicate["type"] = killing_blow_predicate_update(predicate["type"])
     return predicate
 def is_trigger(trigger: str, name: str) -> bool:
     return trigger == name or "minecraft:{}".format(name) == trigger
 def advancement_upload_entity_predicate(advancement: dict) -> dict:
-    if "player" in advancement:
-        advancement["player"] = entity_predicate_update(advancement["player"])
     criteria: dict = advancement["criteria"]
     for i in criteria.keys():
+        # print(i)
         criteria_value = criteria[i]
         trigger = criteria_value["trigger"]
+        if "conditions" not in criteria_value:
+            continue
         condition = criteria_value["conditions"]
+        if "player" in condition:
+            if isinstance(condition["player"], dict):
+                condition["player"] = entity_predicate_update(condition["player"])
+            elif isinstance(condition["player"], list):
+                for j in range(len(condition["player"])):
+                    # print(condition["player"])
+                    condition["player"][j] = entity_predicate_update(condition["player"][j])
         if is_trigger(trigger, "bred_animals"):
             if "child" in condition:
                 if isinstance(condition["child"], dict):
@@ -70,6 +149,9 @@ def advancement_upload_entity_predicate(advancement: dict) -> dict:
                 elif isinstance(condition["source"], list):
                     for j in range(len(condition["source"])):
                         condition["source"][j] = entity_predicate_update(condition["source"][j])
+        if is_trigger(trigger, "entity_hurt_player"):
+            if "damage" in condition:
+                condition["damage"] = damage_predicate_update(condition["damage"])
         if is_trigger(trigger, "entity_killed_player"):
             if "entity" in condition:
                 if isinstance(condition["entity"], dict):
@@ -77,6 +159,8 @@ def advancement_upload_entity_predicate(advancement: dict) -> dict:
                 elif isinstance(condition["entity"], list):
                     for j in range(len(condition["entity"])):
                         condition["entity"][j] = entity_predicate_update(condition["entity"][j])
+            if "killing_blow" in condition:
+                condition["killing_blow"] = killing_blow_predicate_update(condition["killing_blow"])
         if is_trigger(trigger, "fall_after_explosion"):
             if "cause" in condition:
                 if isinstance(condition["cause"], dict):
@@ -126,6 +210,8 @@ def advancement_upload_entity_predicate(advancement: dict) -> dict:
                 elif isinstance(condition["entity"], list):
                     for j in range(len(condition["entity"])):
                         condition["entity"][j] = entity_predicate_update(condition["entity"][j])
+            if "damage" in condition:
+                condition["damage"] = damage_predicate_update(condition["damage"])
         if is_trigger(trigger, "player_interacted_with_entity"):
             if "entity" in condition:
                 if isinstance(condition["entity"], dict):
@@ -140,6 +226,9 @@ def advancement_upload_entity_predicate(advancement: dict) -> dict:
                 elif isinstance(condition["entity"], list):
                     for j in range(len(condition["entity"])):
                         condition["entity"][j] = entity_predicate_update(condition["entity"][j])
+            if "killing_blow" in condition:
+                # print("killing_blow")
+                condition["killing_blow"] = killing_blow_predicate_update(condition["killing_blow"])
         if is_trigger(trigger, "player_sheared_equipment"):
             if "entity" in condition:
                 if isinstance(condition["entity"], dict):
@@ -190,24 +279,46 @@ def advancement_upload_entity_predicate(advancement: dict) -> dict:
                     for j in range(len(condition["villager"])):
                         condition["villager"][j] = entity_predicate_update(condition["villager"][j])
         criteria_value["conditions"] = condition
+        # criteria_value["--debug"] = {"loaded": True}
         criteria[i] = criteria_value
     advancement["criteria"] = criteria
     return advancement
+
+error_counter = 0
 if len(argv) == 3:
     if argv[1] == "file":
         if os.path.isfile(argv[2]):
             adv_file = open(argv[2], mode="r+", encoding="utf-8")
-            adv_data = advancement_upload_entity_predicate(json.load(adv_file))
+            try:
+                adv_data = advancement_upload_entity_predicate(json.load(adv_file))
+            except json.JSONDecodeError:
+                print("无法处理该文件！！！加载失败，非法的JSON字符串！！！")
+                error_counter += 1
+            adv_file.truncate(0)
             adv_file.seek(0)
             json.dump(adv_data, adv_file, indent=4, ensure_ascii=False)
+            print("处理失败！！！" if error_counter else "已处理完成！")
     elif argv[1] == "dir":
         path = argv[2].rstrip("*?")
-        for i in os.listdir(path):
+        for i in map(lambda x: "{0}\\{1}".format(path, x), os.listdir(path)):
             if os.path.isfile(i):
                 adv_file = open(i, mode="r+", encoding="utf-8")
-                adv_data = advancement_upload_entity_predicate(json.load(adv_file))
-                adv_file.seek(0)
-                json.dump(adv_data, adv_file, indent=4, ensure_ascii=False)
+                try:
+                    adv_data = advancement_upload_entity_predicate(json.load(adv_file))
+                except json.JSONDecodeError:
+                    print("无法处理 {} 文件！！！加载失败".format(i))
+                    error_counter += 1
+                except KeyError as e:
+                    print("无法处理 {} 文件！！！报错：\n{}".format(i, e.with_traceback(None)))
+                    error_counter += 1
+                else:
+                    adv_file.truncate(0)
+                    adv_file.seek(0)
+                    json.dump(adv_data, adv_file, indent=4, ensure_ascii=False)
+                    print("已处理 {} 文件；".format(i))
+        print("已处理完成！")
+        if error_counter:
+            print("失败文件数量：" + str(error_counter))
 elif (len(argv) == 2 and argv[1] == "help") or len(argv) == 1:
     print("欢迎使用实体谓词迁移器！")
     print("本工具可以帮助你将26.1前的实体谓词迁移至26.2版本\n")

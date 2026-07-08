@@ -154,6 +154,12 @@ name_mapping = {
         title: "焱热",
         type: "single"
     },
+    obsidian: {
+        fallback_name: "黑曜石",
+        id: "obsidian",
+        title: "又重又硬",
+        type: "single"
+    },
     ores: {
         fallback_name: "矿物及矿物块",
         id: "ores_plus",
@@ -161,6 +167,12 @@ name_mapping = {
         special_block: "iron_ore",
         title: "“矿”艺中的硫方怪",
         type: "tag"
+    },
+    sticky: {
+        fallback_name: "蜜脾块",
+        id: "honeycomb_block",
+        title: "黏性十足",
+        type: "single"
     },
     soul: {
         fallback_name: "灵魂沙或灵魂土",
