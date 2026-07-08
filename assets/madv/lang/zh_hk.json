@@ -23,10 +23,18 @@
         "向硫磺史萊姆填充泥土類方塊",
     "advancement.madv_plus.adventure.sulfur_filled_with_dirt_plus.title":
         "射門！",
+    "advancement.madv_plus.adventure.sulfur_filled_with_honeycomb_block.description":
+        "向硫磺史萊姆填充蜂巢蜜塊",
+    "advancement.madv_plus.adventure.sulfur_filled_with_honeycomb_block.title":
+        "黏性十足",
     "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.description":
         "向硫磺史萊姆填充巖漿塊",
     "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.title":
         "焱熱",
+    "advancement.madv_plus.adventure.sulfur_filled_with_obsidian.description":
+        "向硫磺史萊姆填充黑曜石",
+    "advancement.madv_plus.adventure.sulfur_filled_with_obsidian.title":
+        "又重又硬",
     "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.description":
         "向硫磺史萊姆填充礦物及礦物塊",
     "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.title":
@@ -119,6 +127,10 @@
         "獲取一塊海綿",
     "advancement.madv_plus.world.sponge.title":
         "你說你獲得了什麼？",
+    "advancement.madv_plus.world.sulfur_cave.description":
+        "抓幾隻硫磺史萊姆來玩玩！",
+    "advancement.madv_plus.world.sulfur_cave.title":
+        "混沌洞穴",
     "gui.madv_plus.button.setting.introduction":
         "數據包擴展簡介",
     "gui.dialog.madv_plus.message.extension.debug_versions":
@@ -130,7 +142,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "更多進度 擴展 簡介",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "版本：Alpha Replacing Elementarily\n快照：alpha-snapshot-26w25a (ARE AS)",
+        "版本：Alpha Replacing Elementarily\n快照：alpha-snapshot-26w28a (ARE AS)",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "歡迎遊玩更多進度 - 擴展！",
     "command.initialization.messages.madv_plus.load":

@@ -23,10 +23,18 @@
         "Fill the Sulfur Cube with Dirt or something like Dirt",
     "advancement.madv_plus.adventure.sulfur_filled_with_dirt_plus.title":
         "Goal!",
+    "advancement.madv_plus.adventure.sulfur_filled_with_honeycomb_block.description":
+        "Fill the Sulfur Cube with Honeycomb Block",
+    "advancement.madv_plus.adventure.sulfur_filled_with_honeycomb_block.title":
+        "Sticky",
     "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.description":
         "Fill the Sulfur Cube with Magma Block",
     "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.title":
         "HEATING",
+    "advancement.madv_plus.adventure.sulfur_filled_with_obsidian.description":
+        "Fill the Sulfur Cube with Obsidian",
+    "advancement.madv_plus.adventure.sulfur_filled_with_obsidian.title":
+        "Hard & Heavy",
     "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.description":
         "Fill the Sulfur Cube with ores",
     "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.title":
@@ -119,6 +127,10 @@
         "Acquire Sponges",
     "advancement.madv_plus.world.sponge.title":
         "Exactly... What Did You Acquire?",
+    "advancement.madv_plus.world.sulfur_cave.description":
+        "Pick some Sulfur Cubed, Play some Sulfur Cubed!",
+    "advancement.madv_plus.world.sulfur_cave.title":
+        "Chaos Caves",
     "gui.madv_plus.button.setting.introduction":
         "Extension: Introduction",
     "gui.dialog.madv_plus.message.extension.debug_versions":
@@ -130,7 +142,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "More Advancements (Extension): Introduction",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "Version: Alpha Replacing Elementarily\nSnapshot: alpha-snapshot-26w25a (ARE AS)",
+        "Version: Alpha Replacing Elementarily\nSnapshot: alpha-snapshot-26w28a (ARE AS)",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "Welcome to play the More Advancements (Extension)!",
     "command.initialization.messages.madv_plus.load":

@@ -23,10 +23,18 @@
         "サルファーキューブが土などを吸収せよ",
     "advancement.madv_plus.adventure.sulfur_filled_with_dirt_plus.title":
         "いい射撃",
+    "advancement.madv_plus.adventure.sulfur_filled_with_honeycomb_block.description":
+        "サルファーキューブがハニカムブロックを吸収せよ",
+    "advancement.madv_plus.adventure.sulfur_filled_with_honeycomb_block.title":
+        "粘り",
     "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.description":
         "サルファーキューブがマグマブロックを吸収せよ",
     "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.title":
         "熱い！熱い！",
+    "advancement.madv_plus.adventure.sulfur_filled_with_obsidian.description":
+        "サルファーキューブが黒曜石を吸収せよ",
+    "advancement.madv_plus.adventure.sulfur_filled_with_obsidian.title":
+        "重い、硬い",
     "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.description":
         "サルファーキューブが鉱石を吸収せよ",
     "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.title":
@@ -119,6 +127,10 @@
         "スポンジを手に入れる",
     "advancement.madv_plus.world.sponge.title":
         "何？",
+    "advancement.madv_plus.world.sulfur_cave.description":
+        "サルファーキューブを手がかれ、サルファーキューブを遊べ！",
+    "advancement.madv_plus.world.sulfur_cave.title":
+        "カオス洞窟",
     "gui.madv_plus.button.setting.introduction":
         "データパックの紹介",
     "gui.dialog.madv_plus.message.extension.debug_versions":
@@ -130,7 +142,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "もっと進捗のデータパックの紹介",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "バージョン：Alpha Replacing Elementarily / alpha-snapshot-26w25a (ARE AS)",
+        "バージョン：Alpha Replacing Elementarily / alpha-snapshot-26w28a (ARE AS)",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "もっと進捗のデータパックへようこそ",
     "command.initialization.messages.madv_plus.load":

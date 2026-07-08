@@ -23,10 +23,18 @@
         "o poki e leko ko jaki kepeken ma",
     "advancement.madv_plus.adventure.sulfur_filled_with_dirt_plus.title":
         "o pana e sike",
+    "advancement.madv_plus.adventure.sulfur_filled_with_honeycomb_block.description":
+        "o poki e leko ko jaki kepeken lipu suwi suli",
+    "advancement.madv_plus.adventure.sulfur_filled_with_honeycomb_block.title":
+        "ko",
     "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.description":
         "o poki e leko ko jaki kepeken kiwen seli",
     "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.title":
         "seli tawa",
+    "advancement.madv_plus.adventure.sulfur_filled_with_obsidian.description":
+        "o poki e leko ko jaki kepeken kiwen pimeja wawa",
+    "advancement.madv_plus.adventure.sulfur_filled_with_obsidian.title":
+        "kiwen suli",
     "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.description":
         "o poki e leko ko jaki kepeken insa kiwen",
     "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.title":
@@ -119,6 +127,10 @@
         "o lanpan e ko pi weka telo",
     "advancement.madv_plus.world.sponge.title":
         "ijo ni li seme?",
+    "advancement.madv_plus.world.sulfur_cave.description":
+        "o kama jo e leko ko jaki, o musi e leko ko jaki!",
+    "advancement.madv_plus.world.sulfur_cave.title":
+        "lupa jaki",
     "gui.madv_plus.button.setting.introduction":
         "open pi toki wawa suli",
     "gui.dialog.madv_plus.message.extension.debug_versions":
@@ -130,7 +142,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "open pi pali ijo tawa pi pali pona mute tawa e musi Manka",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "nanpa toki wawa: open pi ante pi alupa\nsona: 26w25a pi alupa",
+        "nanpa toki wawa: open pi ante pi alupa\nsona: 26w28a pi alupa",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "o kama pona tawa jan pali pi lipu Pilipili",
     "command.initialization.messages.madv_plus.load":

@@ -23,10 +23,18 @@
         "充硫方靈以土",
     "advancement.madv_plus.adventure.sulfur_filled_with_dirt_plus.title":
         "射之！",
+    "advancement.madv_plus.adventure.sulfur_filled_with_honeycomb_block.description":
+        "充硫方靈以蜜脾塊",
+    "advancement.madv_plus.adventure.sulfur_filled_with_honeycomb_block.title":
+        "黏也",
     "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.description":
         "充硫方靈以火漿塊",
     "advancement.madv_plus.adventure.sulfur_filled_with_magma_block.title":
         "燚",
+    "advancement.madv_plus.adventure.sulfur_filled_with_obsidian.description":
+        "充硫方靈以黑曜石",
+    "advancement.madv_plus.adventure.sulfur_filled_with_obsidian.title":
+        "重也，硬也",
     "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.description":
         "充硫方靈以礦",
     "advancement.madv_plus.adventure.sulfur_filled_with_ores_plus.title":
@@ -119,6 +127,10 @@
         "得一海綿",
     "advancement.madv_plus.world.sponge.title":
         "得何物也？",
+    "advancement.madv_plus.world.sulfur_cave.description":
+        "取硫方靈以戲之！",
+    "advancement.madv_plus.world.sulfur_cave.title":
+        "窟壯百態",
     "gui.madv_plus.button.setting.introduction":
         "錄囊續",
     "gui.dialog.madv_plus.message.extension.debug_versions":
@@ -130,7 +142,7 @@
     "gui.dialog.madv_plus.message.extension.introduction.title":
         "錄囊續",
     "gui.dialog.madv_plus.message.extension.introduction.version":
-        "版：首測首更\n快照：首測快照二六週二五甲",
+        "版：首測首更\n快照：首測快照二六週二八甲",
     "gui.dialog.madv_plus.message.extension.introduction.welcome":
         "恭迎至益功續！",
     "command.initialization.messages.madv_plus.load":
