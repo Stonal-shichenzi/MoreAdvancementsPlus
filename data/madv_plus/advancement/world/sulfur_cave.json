@@ -1,0 +1,36 @@
+{
+    "parent": "madv:world/start",
+    "criteria": {
+        "location": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:sulfur_caves"
+                    }
+                }
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancement.madv_plus.world.sulfur_cave.description",
+            "fallback": "抓几只硫方怪来玩玩！"
+        },
+        "frame": "task",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:cinnabar"
+        },
+        "title": {
+            "translate": "advancement.madv_plus.world.sulfur_cave.title",
+            "fallback": "混沌洞穴"
+        }
+    },
+    "requirements": [
+        [
+            "location"
+        ]
+    ],
+    "sends_telemetry_event": true
+}
