@@ -1,0 +1,64 @@
+{
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "thrown": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:honeycomb_block"
+                },
+                "entity": [
+                    {
+                        "entity": "this",
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "entity_type": "minecraft:sulfur_cube",
+                            "flags": {
+                                "is_baby": false
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "interact": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:honeycomb_block"
+                },
+                "entity": [
+                    {
+                        "entity": "this",
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "entity_type": "minecraft:sulfur_cube",
+                            "flags": {
+                                "is_baby": false
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "translate": "advancement.madv_plus.adventure.sulfur_filled_with_honeycomb_block.title",
+            "fallback": "黏性十足"
+        },
+        "description": {
+            "translate": "advancement.madv_plus.adventure.sulfur_filled_with_honeycomb_block.description",
+            "fallback": "向硫方怪填充蜜脾块"
+        },
+        "icon": {
+            "id": "minecraft:honeycomb_block"
+        }
+    },
+    "requirements": [
+        [
+            "interact",
+            "thrown"
+        ]
+    ]
+}
